@@ -1,0 +1,59 @@
+# Archivo RML/YARRRML para el CSV "MusicaCopas-csv.csv"
+
+prefixes:
+  ex: http://example.org/barcelona/
+  schema: http://schema.org/
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  geo: http://www.w3.org/2003/01/geo/wgs84_pos#
+
+mappings:
+  bares:
+    sources:
+      - MusicaCopas-csv.csv~csv
+    
+    s: ex:Bar/$(barId)
+    
+    po:
+      - [rdf:type, schema:LocalBusiness]
+      - [rdf:type, ex:Bar]
+      
+      # Mapeo de propiedades básicas
+      - [schema:name, $(barName)]
+      - [ex:barType, $(barType)] # Podría ser un tipo de negocio específico
+      
+      # Mapeo de la dirección
+      - p: schema:address
+        o:
+          - mapping: address_node
+      
+      # Mapeo de la geolocalización
+      - p: geo:location
+        o:
+          - mapping: location_node
+
+  address_node:
+    sources:
+      - MusicaCopas-csv.csv~csv
+      
+    s: ex:Address/$(barId)
+    
+    po:
+      - [rdf:type, schema:PostalAddress]
+      - [schema:streetAddress, $(addressType) $(addressName) $(addressNumber), literal] # Combina tipo, nombre y número
+      - [schema:postalCode, $(postCode)]
+      - [schema:addressLocality, $(neighborhoodName)]
+      - [schema:addressRegion, $(districtName)]
+      - [ex:neighborhoodId, $(neighborhoodId), xsd:integer]
+      - [ex:districtId, $(districtId), xsd:integer]
+
+  location_node:
+    sources:
+      - MusicaCopas-csv.csv~csv
+      
+    s: ex:Location/$(barId)
+    
+    po:
+      - [rdf:type, geo:Point]
+      - [geo:lat, $(latitude), xsd:float]
+      - [geo:long, $(longitude), xsd:float]

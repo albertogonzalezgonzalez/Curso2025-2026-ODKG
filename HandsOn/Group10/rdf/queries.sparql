@@ -1,0 +1,117 @@
+# =========================================================
+# PREFIJOS (AJUSTAR SEGÚN TU ONTOLOGÍA)
+# =========================================================
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+# EJEMPLO: Reemplaza 'miOnto' y su URI con los que usaste en tu RML
+PREFIX miOnto: <http://ejemplo.org/ontologia/>
+# EJEMPLO: Si usaste schema.org, puedes incluirlo
+PREFIX schema: <http://schema.org/>
+
+
+# =========================================================
+# 1. VERIFICACIÓN BÁSICA DE EXISTENCIA Y CONTEO
+# =========================================================
+
+# 1.1. Contar todas las instancias de la clase principal
+#      (Ajusta 'miOnto:EntidadPrincipal' a tu clase base)
+SELECT (COUNT(?s) AS ?count)
+WHERE {
+  ?s a miOnto:EntidadPrincipal .
+}
+
+# 1.2. Muestra los primeros 10 sujetos/instancias
+#      (Útil para una inspección rápida de los URIs generados)
+SELECT DISTINCT ?subject
+WHERE {
+  ?subject ?p ?o .
+}
+LIMIT 10
+
+
+# =========================================================
+# 2. VERIFICACIÓN DE PROPIEDADES Y VALORES
+# =========================================================
+
+# 2.1. Muestra un ejemplo de entidad con todas sus propiedades
+#      (Ajusta el URI para que coincida con una de tus entidades)
+SELECT ?predicate ?object
+WHERE {
+  <http://ejemplo.org/instancias/id_de_ejemplo_123> ?predicate ?object .
+}
+
+# 2.2. Verificar que se mapearon datos literales con un tipo de dato específico
+#      (Ajusta la propiedad y el tipo de dato. Por ejemplo, un precio como xsd:float)
+SELECT ?entidad ?valor
+WHERE {
+  ?entidad miOnto:propiedadDeValorNumerico ?valor .
+  FILTER (DATATYPE(?valor) = xsd:float)
+}
+LIMIT 10
+
+# 2.3. Verificar la cardinalidad: ¿Qué entidades tienen MÁS de un valor para una propiedad que debería ser única?
+#      (Ajusta 'miOnto:propiedadUnica' a una propiedad que solo deba tener 1 valor, como un nombre o ID)
+SELECT ?entidad (COUNT(?valor) AS ?count)
+WHERE {
+  ?entidad miOnto:propiedadUnica ?valor .
+}
+GROUP BY ?entidad
+HAVING (COUNT(?valor) > 1)
+
+
+# =========================================================
+# 3. VERIFICACIÓN DE RELACIONES (TRIPLES OBJETO)
+# =========================================================
+
+# 3.1. Verificar las relaciones entre dos clases
+#      (Asegura que las relaciones (ObjectMaps) en RML funcionaron)
+#      (Ajusta 'miOnto:EntidadA' y 'miOnto:EntidadB' y la propiedad)
+SELECT ?entidadA ?entidadB
+WHERE {
+  ?entidadA a miOnto:EntidadA .
+  ?entidadA miOnto:seRelacionaCon ?entidadB .
+  ?entidadB a miOnto:EntidadB .
+}
+LIMIT 10
+
+# 3.2. ¿Hay entidades de la Clase A que NO tienen la relación esperada?
+#      (Busca "agujeros" en los datos o fallos en el mapeo OPTIONAL de RML)
+SELECT ?entidadSinRelacion
+WHERE {
+  ?entidadSinRelacion a miOnto:EntidadPrincipal .
+  FILTER NOT EXISTS {
+    ?entidadSinRelacion miOnto:tieneRelacionImportante ?algo .
+  }
+}
+
+
+# =========================================================
+# 4. PRUEBAS DE INTEGRIDAD DE DATOS (CONSULTAS ASK)
+# =========================================================
+
+# 4.1. ASK: ¿Existe al menos una instancia? (Debe devolver TRUE)
+ASK {
+  ?s a miOnto:EntidadPrincipal .
+}
+
+# 4.2. ASK: ¿Hay algún valor literal que NO tenga el tipo de dato esperado?
+#      (Esto verifica el correcto uso de los literales tipados en RML)
+ASK {
+  ?s miOnto:propiedadConFecha ?o .
+  FILTER (!isLiteral(?o) || DATATYPE(?o) != xsd:date)
+}
+
+# 4.3. ASK: ¿Hay algún sujeto o objeto que no sea un recurso (URI o BNode)
+#      donde se espera un recurso? (Por ejemplo, en una relación)
+ASK {
+  ?s miOnto:seRelacionaCon ?o .
+  FILTER (!isIRI(?o) && !isBlank(?o)) # El objeto de la relación debe ser un nodo
+}
+
+# 4.4. ASK: ¿Hay datos con un valor que no debería existir?
+#      (Verifica que las condiciones de filtro en RML funcionaron)
+ASK {
+  ?entidad miOnto:estado ?valor .
+  FILTER (?valor = "Valor_No_Valido")
+}

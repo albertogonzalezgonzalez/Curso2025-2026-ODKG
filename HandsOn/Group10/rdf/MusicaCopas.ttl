@@ -1,0 +1,3890 @@
+@prefix ex: <http://example.org/barcelona/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Bar/99400533969
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Restaurant Maná 75" ;
+    ex:barType "Cocteleries|Xampanyeries|Restaurants" ;
+    schema:address ex:Address/99400533969 ;
+    geo:location ex:Location/99400533969 .
+
+ex:Address/99400533969
+    a schema:PostalAddress ;
+    schema:streetAddress "Pg Pg Joan Borbó Comte Barcelona 101" ;
+    schema:postalCode "8039" ;
+    schema:addressLocality "La Barceloneta" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "3"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/99400533969
+    a geo:Point ;
+    geo:lat "41.371330800626644"^^xsd:float ;
+    geo:long "2.1876265993001707"^^xsd:float .
+
+ex:Bar/99400533974
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Restaurant Nº 30" ;
+    ex:barType "Cocteleries|Xampanyeries|Restaurants" ;
+    schema:address ex:Address/99400533974 ;
+    geo:location ex:Location/99400533974 .
+
+ex:Address/99400533974
+    a schema:PostalAddress ;
+    schema:streetAddress "Pg Pg Joan Borbó Comte Barcelona 30" ;
+    schema:postalCode "8003" ;
+    schema:addressLocality "La Barceloneta" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "3"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/99400533974
+    a geo:Point ;
+    geo:lat "41.37904016646946"^^xsd:float ;
+    geo:long "2.1880414416045597"^^xsd:float .
+
+ex:Bar/283174133
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar La Confiteria" ;
+    ex:barType "Bars I Pubs Musicals|Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/283174133 ;
+    geo:location ex:Location/283174133 .
+
+ex:Address/283174133
+    a schema:PostalAddress ;
+    schema:streetAddress " Sant Pau 128" ;
+    schema:postalCode "8001" ;
+    schema:addressLocality "El Raval" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "1"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/283174133
+    a geo:Point ;
+    geo:lat "41.3755185559786"^^xsd:float ;
+    geo:long "2.167940633280248"^^xsd:float .
+
+ex:Bar/99400698842
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Cocteleria Monk" ;
+    ex:barType "Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400698842 ;
+    geo:location ex:Location/99400698842 .
+
+ex:Address/99400698842
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer dels Abaixadors 6" ;
+    schema:postalCode "8003" ;
+    schema:addressLocality "Sant Pere, Santa Caterina I La Ribera" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "4"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/99400698842
+    a geo:Point ;
+    geo:lat "41.38310592859262"^^xsd:float ;
+    geo:long "2.181191553452184"^^xsd:float .
+
+ex:Bar/99400594206
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Restaurant Saraya Shisha Club" ;
+    ex:barType "Cocteleries|Xampanyeries|Restaurants" ;
+    schema:address ex:Address/99400594206 ;
+    geo:location ex:Location/99400594206 .
+
+ex:Address/99400594206
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Muntaner 102" ;
+    schema:postalCode "8036" ;
+    schema:addressLocality "L'antiga Esquerra De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "8"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/99400594206
+    a geo:Point ;
+    geo:lat "41.388688726870086"^^xsd:float ;
+    geo:long "2.156915802866232"^^xsd:float .
+
+ex:Bar/99400574272
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Restaurant Cocteleria Barítimo *maremàgnum" ;
+    ex:barType "Cocteleries|Xampanyeries|Restaurants" ;
+    schema:address ex:Address/99400574272 ;
+    geo:location ex:Location/99400574272 .
+
+ex:Address/99400574272
+    a schema:PostalAddress ;
+    schema:streetAddress " Moll Espanya 5" ;
+    schema:postalCode "8039" ;
+    schema:addressLocality "El Barri Gòtic" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "2"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/99400574272
+    a geo:Point ;
+    geo:lat "41.375450271691385"^^xsd:float ;
+    geo:long "2.182393934529025"^^xsd:float .
+
+ex:Bar/325120406
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Atlàntic Bar" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/325120406 ;
+    geo:location ex:Location/325120406 .
+
+ex:Address/325120406
+    a schema:PostalAddress ;
+    schema:streetAddress "Av Av Tibidabo 56" ;
+    schema:postalCode "8035" ;
+    schema:addressLocality "Sant Gervasi - La Bonanova" ;
+    schema:addressRegion "Sarrià-sant Gervasi" ;
+    ex:neighborhoodId "25"^^xsd:integer ;
+    ex:districtId "5"^^xsd:integer .
+
+ex:Location/325120406
+    a geo:Point ;
+    geo:lat "41.41536627252069"^^xsd:float ;
+    geo:long "2.131617012042792"^^xsd:float .
+
+ex:Bar/92086025238
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical Abanico" ;
+    ex:barType "Bars I Pubs Musicals|Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/92086025238 ;
+    geo:location ex:Location/92086025238 .
+
+ex:Address/92086025238
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Camp 3" ;
+    schema:postalCode "8021" ;
+    schema:addressLocality "Sant Gervasi - Galvany" ;
+    schema:addressRegion "Sarrià-sant Gervasi" ;
+    ex:neighborhoodId "26"^^xsd:integer ;
+    ex:districtId "5"^^xsd:integer .
+
+ex:Location/92086025238
+    a geo:Point ;
+    geo:lat "41.401629005577384"^^xsd:float ;
+    geo:long "2.13817494725461"^^xsd:float .
+
+ex:Bar/99088120250
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Discoteca La Terrrazza *poble Espanyol" ;
+    ex:barType "Discoteques" ;
+    schema:address ex:Address/99088120250 ;
+    geo:location ex:Location/99088120250 .
+
+ex:Address/99088120250
+    a schema:PostalAddress ;
+    schema:streetAddress "Av Av Francesc Ferrer Guàrdia 13" ;
+    schema:postalCode "8038" ;
+    schema:addressLocality "El Poble-sec" ;
+    schema:addressRegion "Sants-montjuïc" ;
+    ex:neighborhoodId "11"^^xsd:integer ;
+    ex:districtId "3"^^xsd:integer .
+
+ex:Location/99088120250
+    a geo:Point ;
+    geo:lat "41.36914809976752"^^xsd:float ;
+    geo:long "2.1467430809493484"^^xsd:float .
+
+ex:Bar/75990174460
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Sala Plataforma" ;
+    ex:barType "Bars I Pubs Musicals|Discoteques" ;
+    schema:address ex:Address/75990174460 ;
+    geo:location ex:Location/75990174460 .
+
+ex:Address/75990174460
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Nou De La Rambla 145" ;
+    schema:postalCode "8004" ;
+    schema:addressLocality "El Poble-sec" ;
+    schema:addressRegion "Sants-montjuïc" ;
+    ex:neighborhoodId "11"^^xsd:integer ;
+    ex:districtId "3"^^xsd:integer .
+
+ex:Location/75990174460
+    a geo:Point ;
+    geo:lat "41.3729218744942"^^xsd:float ;
+    geo:long "2.1680044328607373"^^xsd:float .
+
+ex:Bar/75990210498
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical Marley" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/75990210498 ;
+    geo:location ex:Location/75990210498 .
+
+ex:Address/75990210498
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Joan Torras 25" ;
+    schema:postalCode "8030" ;
+    schema:addressLocality "Sant Andreu" ;
+    schema:addressRegion "Sant Andreu" ;
+    ex:neighborhoodId "60"^^xsd:integer ;
+    ex:districtId "9"^^xsd:integer .
+
+ex:Location/75990210498
+    a geo:Point ;
+    geo:lat "41.43784665009436"^^xsd:float ;
+    geo:long "2.191695745136286"^^xsd:float .
+
+ex:Bar/99400152408
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Salsongu" ;
+    ex:barType "Discoteques" ;
+    schema:address ex:Address/99400152408 ;
+    geo:location ex:Location/99400152408 .
+
+ex:Address/99400152408
+    a schema:PostalAddress ;
+    schema:streetAddress " Ptge Utset 11" ;
+    schema:postalCode "8013" ;
+    schema:addressLocality "La Sagrada Família" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "6"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/99400152408
+    a geo:Point ;
+    geo:lat "41.40449939478798"^^xsd:float ;
+    geo:long "2.1779112755310126"^^xsd:float .
+
+ex:Bar/75990102529
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Discoteca Performance Con Atxé" ;
+    ex:barType "Discoteques" ;
+    schema:address ex:Address/75990102529 ;
+    geo:location ex:Location/75990102529 .
+
+ex:Address/75990102529
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Provença 43" ;
+    schema:postalCode "8029" ;
+    schema:addressLocality "La Nova Esquerra De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "9"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/75990102529
+    a geo:Point ;
+    geo:lat "41.38423837354681"^^xsd:float ;
+    geo:long "2.147176397035106"^^xsd:float .
+
+ex:Bar/99400384119
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Treze" ;
+    ex:barType "Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400384119 ;
+    geo:location ex:Location/99400384119 .
+
+ex:Address/99400384119
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Major De Sarrià 115" ;
+    schema:postalCode "8017" ;
+    schema:addressLocality "Sarrià" ;
+    schema:addressRegion "Sarrià-sant Gervasi" ;
+    ex:neighborhoodId "23"^^xsd:integer ;
+    ex:districtId "5"^^xsd:integer .
+
+ex:Location/99400384119
+    a geo:Point ;
+    geo:lat "41.40056704225509"^^xsd:float ;
+    geo:long "2.120776021419042"^^xsd:float .
+
+ex:Bar/75990053121
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Club Sauvage" ;
+    ex:barType "Bars I Pubs Musicals|Discoteques" ;
+    schema:address ex:Address/75990053121 ;
+    geo:location ex:Location/75990053121 .
+
+ex:Address/75990053121
+    a schema:PostalAddress ;
+    schema:streetAddress "Pl Pl Reial 7" ;
+    schema:postalCode "8002" ;
+    schema:addressLocality "El Barri Gòtic" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "2"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/75990053121
+    a geo:Point ;
+    geo:lat "41.38057557729068"^^xsd:float ;
+    geo:long "2.175192398978123"^^xsd:float .
+
+ex:Bar/1033142110
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Cerveseria Antibiòtic" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/1033142110 ;
+    geo:location ex:Location/1033142110 .
+
+ex:Address/1033142110
+    a schema:PostalAddress ;
+    schema:streetAddress " Rocafort 225" ;
+    schema:postalCode "8029" ;
+    schema:addressLocality "La Nova Esquerra De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "9"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/1033142110
+    a geo:Point ;
+    geo:lat "41.38450415759101"^^xsd:float ;
+    geo:long "2.1462705631276715"^^xsd:float .
+
+ex:Bar/75990118547
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Cocteleria Gimlet" ;
+    ex:barType "Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/75990118547 ;
+    geo:location ex:Location/75990118547 .
+
+ex:Address/75990118547
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Santaló 46" ;
+    schema:postalCode "8021" ;
+    schema:addressLocality "Sant Gervasi - Galvany" ;
+    schema:addressRegion "Sarrià-sant Gervasi" ;
+    ex:neighborhoodId "26"^^xsd:integer ;
+    ex:districtId "5"^^xsd:integer .
+
+ex:Location/75990118547
+    a geo:Point ;
+    geo:lat "41.39612524673916"^^xsd:float ;
+    geo:long "2.1453881871688365"^^xsd:float .
+
+ex:Bar/92274113445
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical Aire - Sala Diana" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/92274113445 ;
+    geo:location ex:Location/92274113445 .
+
+ex:Address/92274113445
+    a schema:PostalAddress ;
+    schema:streetAddress " València 236" ;
+    schema:postalCode "8007" ;
+    schema:addressLocality "L'antiga Esquerra De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "8"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/92274113445
+    a geo:Point ;
+    geo:lat "41.39036579067319"^^xsd:float ;
+    geo:long "2.160382165443889"^^xsd:float .
+
+ex:Bar/99400621096
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Discoteca Ku Barcelona" ;
+    ex:barType "Discoteques|Restaurants" ;
+    schema:address ex:Address/99400621096 ;
+    geo:location ex:Location/99400621096 .
+
+ex:Address/99400621096
+    a schema:PostalAddress ;
+    schema:streetAddress "Passeig Passeig Marítim De La Barceloneta - Oriol Bohigas 38" ;
+    schema:postalCode "8003" ;
+    schema:addressLocality "La Barceloneta" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "3"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/99400621096
+    a geo:Point ;
+    geo:lat "41.38346152967782"^^xsd:float ;
+    geo:long "2.195232897771743"^^xsd:float .
+
+ex:Bar/99400709288
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Cocteleria Two Schmucks" ;
+    ex:barType "Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400709288 ;
+    geo:location ex:Location/99400709288 .
+
+ex:Address/99400709288
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer De Joaquín Costa 52" ;
+    schema:postalCode "8001" ;
+    schema:addressLocality "El Raval" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "1"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/99400709288
+    a geo:Point ;
+    geo:lat "41.3831615294379"^^xsd:float ;
+    geo:long "2.1652030614999225"^^xsd:float .
+
+ex:Bar/99400707531
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Soda Bus & Verne" ;
+    ex:barType "Cocteleries|Xampanyeries|Restaurants" ;
+    schema:address ex:Address/99400707531 ;
+    geo:location ex:Location/99400707531 .
+
+ex:Address/99400707531
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer D'aribau 150" ;
+    schema:postalCode "8036" ;
+    schema:addressLocality "L'antiga Esquerra De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "8"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/99400707531
+    a geo:Point ;
+    geo:lat "41.39207042591961"^^xsd:float ;
+    geo:long "2.1546562141646937"^^xsd:float .
+
+ex:Bar/99400191214
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Jamming Lounge" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/99400191214 ;
+    geo:location ex:Location/99400191214 .
+
+ex:Address/99400191214
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Vallfogona 23" ;
+    schema:postalCode "8012" ;
+    schema:addressLocality "La Vila De Gràcia" ;
+    schema:addressRegion "Gràcia" ;
+    ex:neighborhoodId "31"^^xsd:integer ;
+    ex:districtId "6"^^xsd:integer .
+
+ex:Location/99400191214
+    a geo:Point ;
+    geo:lat "41.40355210477575"^^xsd:float ;
+    geo:long "2.1579781437681316"^^xsd:float .
+
+ex:Bar/99400628372
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical Acústic Sant Andreu" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/99400628372 ;
+    geo:location ex:Location/99400628372 .
+
+ex:Address/99400628372
+    a schema:PostalAddress ;
+    schema:streetAddress " Rier Sant Andreu 9" ;
+    schema:postalCode "8030" ;
+    schema:addressLocality "Sant Andreu" ;
+    schema:addressRegion "Sant Andreu" ;
+    ex:neighborhoodId "60"^^xsd:integer ;
+    ex:districtId "9"^^xsd:integer .
+
+ex:Location/99400628372
+    a geo:Point ;
+    geo:lat "41.433849280854886"^^xsd:float ;
+    geo:long "2.1887417797790394"^^xsd:float .
+
+ex:Bar/99400608660
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Restaurant The Alchemix" ;
+    ex:barType "Cocteleries|Xampanyeries|Restaurants" ;
+    schema:address ex:Address/99400608660 ;
+    geo:location ex:Location/99400608660 .
+
+ex:Address/99400608660
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer De València 212" ;
+    schema:postalCode "8011" ;
+    schema:addressLocality "L'antiga Esquerra De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "8"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/99400608660
+    a geo:Point ;
+    geo:lat "41.389324182392755"^^xsd:float ;
+    geo:long "2.1589959188052603"^^xsd:float .
+
+ex:Bar/99400149745
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Cocteleria Mareva" ;
+    ex:barType "Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400149745 ;
+    geo:location ex:Location/99400149745 .
+
+ex:Address/99400149745
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer d'Aribau 54" ;
+    schema:postalCode "8011" ;
+    schema:addressLocality "L'antiga Esquerra De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "8"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/99400149745
+    a geo:Point ;
+    geo:lat "41.3880747357833"^^xsd:float ;
+    geo:long "2.159984736019471"^^xsd:float .
+
+ex:Bar/75990210235
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical Samba Brasil *horta" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/75990210235 ;
+    geo:location ex:Location/75990210235 .
+
+ex:Address/75990210235
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Santes Creus 20" ;
+    schema:postalCode "8031" ;
+    schema:addressLocality "Horta" ;
+    schema:addressRegion "Horta-guinardó" ;
+    ex:neighborhoodId "43"^^xsd:integer ;
+    ex:districtId "7"^^xsd:integer .
+
+ex:Location/75990210235
+    a geo:Point ;
+    geo:lat "41.43005584388977"^^xsd:float ;
+    geo:long "2.162112239199044"^^xsd:float .
+
+ex:Bar/99400683088
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Especiarium Bar" ;
+    ex:barType "Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400683088 ;
+    geo:location ex:Location/99400683088 .
+
+ex:Address/99400683088
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer De La Princesa 29" ;
+    schema:postalCode "8003" ;
+    schema:addressLocality "Sant Pere, Santa Caterina I La Ribera" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "4"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/99400683088
+    a geo:Point ;
+    geo:lat "41.385703390001815"^^xsd:float ;
+    geo:long "2.1807934178472212"^^xsd:float .
+
+ex:Bar/75990129349
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical Les Qents Que J'aime" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/75990129349 ;
+    geo:location ex:Location/75990129349 .
+
+ex:Address/75990129349
+    a schema:PostalAddress ;
+    schema:streetAddress "C C València 286" ;
+    schema:postalCode "8007" ;
+    schema:addressLocality "La Dreta De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "7"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/75990129349
+    a geo:Point ;
+    geo:lat "41.39373856963519"^^xsd:float ;
+    geo:long "2.164862225150066"^^xsd:float .
+
+ex:Bar/75990092643
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Taverna Anglesa City Arms" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/75990092643 ;
+    geo:location ex:Location/75990092643 .
+
+ex:Address/75990092643
+    a schema:PostalAddress ;
+    schema:streetAddress "Pl Pl Narcís Oller 9" ;
+    schema:postalCode "8006" ;
+    schema:addressLocality "La Vila De Gràcia" ;
+    schema:addressRegion "Gràcia" ;
+    ex:neighborhoodId "31"^^xsd:integer ;
+    ex:districtId "6"^^xsd:integer .
+
+ex:Location/75990092643
+    a geo:Point ;
+    geo:lat "41.39698227132229"^^xsd:float ;
+    geo:long "2.15547000350299"^^xsd:float .
+
+ex:Bar/75990292800
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Cafeteria Cinemateca" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/75990292800 ;
+    geo:location ex:Location/75990292800 .
+
+ex:Address/75990292800
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Pau Claris 120" ;
+    schema:postalCode "8009" ;
+    schema:addressLocality "La Dreta De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "7"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/75990292800
+    a geo:Point ;
+    geo:lat "41.39235893793418"^^xsd:float ;
+    geo:long "2.1678443194565924"^^xsd:float .
+
+ex:Bar/99400701255
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Trikini" ;
+    ex:barType "Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400701255 ;
+    geo:location ex:Location/99400701255 .
+
+ex:Address/99400701255
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer carrer de Pujades 226" ;
+    schema:postalCode "8005" ;
+    schema:addressLocality "El Poblenou" ;
+    schema:addressRegion "Sant Martí" ;
+    ex:neighborhoodId "68"^^xsd:integer ;
+    ex:districtId "10"^^xsd:integer .
+
+ex:Location/99400701255
+    a geo:Point ;
+    geo:lat "41.40306280651095"^^xsd:float ;
+    geo:long "2.2026978688852683"^^xsd:float .
+
+ex:Bar/99400709303
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Pantera Mambo Barcelona" ;
+    ex:barType "Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400709303 ;
+    geo:location ex:Location/99400709303 .
+
+ex:Address/99400709303
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer De Joaquín Costa 39" ;
+    schema:postalCode "8001" ;
+    schema:addressLocality "El Raval" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "1"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/99400709303
+    a geo:Point ;
+    geo:lat "41.382614921981634"^^xsd:float ;
+    geo:long "2.1656396074445134"^^xsd:float .
+
+ex:Bar/99400453809
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Taberna Tio Carlos" ;
+    ex:barType "Bars I Pubs Musicals|Restaurants" ;
+    schema:address ex:Address/99400453809 ;
+    geo:location ex:Location/99400453809 .
+
+ex:Address/99400453809
+    a schema:PostalAddress ;
+    schema:streetAddress " Ptge Gutenberg 7" ;
+    schema:postalCode "8001" ;
+    schema:addressLocality "El Raval" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "1"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/99400453809
+    a geo:Point ;
+    geo:lat "41.37693151786698"^^xsd:float ;
+    geo:long "2.1747110351465655"^^xsd:float .
+
+ex:Bar/99400420446
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Cocteleria Doble" ;
+    ex:barType "Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400420446 ;
+    geo:location ex:Location/99400420446 .
+
+ex:Address/99400420446
+    a schema:PostalAddress ;
+    schema:streetAddress "Pg Pg Gràcia 116" ;
+    schema:postalCode "8008" ;
+    schema:addressLocality "La Vila De Gràcia" ;
+    schema:addressRegion "Gràcia" ;
+    ex:neighborhoodId "31"^^xsd:integer ;
+    ex:districtId "6"^^xsd:integer .
+
+ex:Location/99400420446
+    a geo:Point ;
+    geo:lat "41.397211059158614"^^xsd:float ;
+    geo:long "2.159213702418187"^^xsd:float .
+
+ex:Bar/99400685836
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Cocteleria Popular Gopnik" ;
+    ex:barType "Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400685836 ;
+    geo:location ex:Location/99400685836 .
+
+ex:Address/99400685836
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer de Vallfogona 23" ;
+    schema:postalCode "8012" ;
+    schema:addressLocality "La Vila De Gràcia" ;
+    schema:addressRegion "Gràcia" ;
+    ex:neighborhoodId "31"^^xsd:integer ;
+    ex:districtId "6"^^xsd:integer .
+
+ex:Location/99400685836
+    a geo:Point ;
+    geo:lat "41.40352490735006"^^xsd:float ;
+    geo:long "2.1579665230100913"^^xsd:float .
+
+ex:Bar/99400596754
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Pub The James Joyce" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/99400596754 ;
+    geo:location ex:Location/99400596754 .
+
+ex:Address/99400596754
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Casp 92" ;
+    schema:postalCode "8010" ;
+    schema:addressLocality "La Dreta De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "7"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/99400596754
+    a geo:Point ;
+    geo:lat "41.39362616208608"^^xsd:float ;
+    geo:long "2.176545204416195"^^xsd:float .
+
+ex:Bar/99400689374
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical Karaoke A Viva Voz *aribau" ;
+    ex:barType "Bars I Pubs Musicals|Karaokes" ;
+    schema:address ex:Address/99400689374 ;
+    geo:location ex:Location/99400689374 .
+
+ex:Address/99400689374
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer D'aribau 103" ;
+    schema:postalCode "8036" ;
+    schema:addressLocality "L'antiga Esquerra De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "8"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/99400689374
+    a geo:Point ;
+    geo:lat "41.390342854588354"^^xsd:float ;
+    geo:long "2.156566649656205"^^xsd:float .
+
+ex:Bar/99400370686
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Restaurant Lounge My Way" ;
+    ex:barType "Bars I Pubs Musicals|Restaurants" ;
+    schema:address ex:Address/99400370686 ;
+    geo:location ex:Location/99400370686 .
+
+ex:Address/99400370686
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Heures 4" ;
+    schema:postalCode "8002" ;
+    schema:addressLocality "El Barri Gòtic" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "2"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/99400370686
+    a geo:Point ;
+    geo:lat "41.38077298942988"^^xsd:float ;
+    geo:long "2.1752836048519177"^^xsd:float .
+
+ex:Bar/99400576585
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical Bar De Retro" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/99400576585 ;
+    geo:location ex:Location/99400576585 .
+
+ex:Address/99400576585
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Torrent De L'olla 141" ;
+    schema:postalCode "8012" ;
+    schema:addressLocality "La Vila De Gràcia" ;
+    schema:addressRegion "Gràcia" ;
+    ex:neighborhoodId "31"^^xsd:integer ;
+    ex:districtId "6"^^xsd:integer .
+
+ex:Location/99400576585
+    a geo:Point ;
+    geo:lat "41.40357998898639"^^xsd:float ;
+    geo:long "2.155572605881731"^^xsd:float .
+
+ex:Bar/99400592902
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical Revival" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/99400592902 ;
+    geo:location ex:Location/99400592902 .
+
+ex:Address/99400592902
+    a schema:PostalAddress ;
+    schema:streetAddress " Trav Gràcia 40" ;
+    schema:postalCode "8021" ;
+    schema:addressLocality "Sant Gervasi - Galvany" ;
+    schema:addressRegion "Sarrià-sant Gervasi" ;
+    ex:neighborhoodId "26"^^xsd:integer ;
+    ex:districtId "5"^^xsd:integer .
+
+ex:Location/99400592902
+    a geo:Point ;
+    geo:lat "41.39538807510398"^^xsd:float ;
+    geo:long "2.1486107075773364"^^xsd:float .
+
+ex:Bar/99400576356
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical The Good Feeling" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/99400576356 ;
+    geo:location ex:Location/99400576356 .
+
+ex:Address/99400576356
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Consell De Cent 319" ;
+    schema:postalCode "8007" ;
+    schema:addressLocality "La Dreta De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "7"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/99400576356
+    a geo:Point ;
+    geo:lat "41.38947615246521"^^xsd:float ;
+    geo:long "2.1633420803121344"^^xsd:float .
+
+ex:Bar/99400596517
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical Decode" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/99400596517 ;
+    geo:location ex:Location/99400596517 .
+
+ex:Address/99400596517
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer d'Aribau 97" ;
+    schema:postalCode "8036" ;
+    schema:addressLocality "L'antiga Esquerra De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "8"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/99400596517
+    a geo:Point ;
+    geo:lat "41.39025193072827"^^xsd:float ;
+    geo:long "2.1567392047205014"^^xsd:float .
+
+ex:Bar/99400596554
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Village Club" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/99400596554 ;
+    geo:location ex:Location/99400596554 .
+
+ex:Address/99400596554
+    a schema:PostalAddress ;
+    schema:streetAddress "C C València 193" ;
+    schema:postalCode "8011" ;
+    schema:addressLocality "L'antiga Esquerra De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "8"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/99400596554
+    a geo:Point ;
+    geo:lat "41.38954089882291"^^xsd:float ;
+    geo:long "2.15891924381821"^^xsd:float .
+
+ex:Bar/99400596605
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Nevermind" ;
+    ex:barType "Cocteleries|Xampanyeries|Altres Esports|Instal·lacions Esportives" ;
+    schema:address ex:Address/99400596605 ;
+    geo:location ex:Location/99400596605 .
+
+ex:Address/99400596605
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Tallers 68" ;
+    schema:postalCode "8001" ;
+    schema:addressLocality "El Raval" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "1"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/99400596605
+    a geo:Point ;
+    geo:lat "41.3850530367574"^^xsd:float ;
+    geo:long "2.1664467041469133"^^xsd:float .
+
+ex:Bar/99400191791
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Sala Monasterio" ;
+    ex:barType "Bars I Pubs Musicals|Discoteques" ;
+    schema:address ex:Address/99400191791 ;
+    geo:location ex:Location/99400191791 .
+
+ex:Address/99400191791
+    a schema:PostalAddress ;
+    schema:streetAddress " Moll Mestral 30" ;
+    schema:postalCode "8005" ;
+    schema:addressLocality "La Vila Olímpica Del Poblenou" ;
+    schema:addressRegion "Sant Martí" ;
+    ex:neighborhoodId "67"^^xsd:integer ;
+    ex:districtId "10"^^xsd:integer .
+
+ex:Location/99400191791
+    a geo:Point ;
+    geo:lat "41.38801827078488"^^xsd:float ;
+    geo:long "2.1995779583018025"^^xsd:float .
+
+ex:Bar/99400576535
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical Le Standard" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/99400576535 ;
+    geo:location ex:Location/99400576535 .
+
+ex:Address/99400576535
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Topazi 24" ;
+    schema:postalCode "8012" ;
+    schema:addressLocality "La Vila De Gràcia" ;
+    schema:addressRegion "Gràcia" ;
+    ex:neighborhoodId "31"^^xsd:integer ;
+    ex:districtId "6"^^xsd:integer .
+
+ex:Location/99400576535
+    a geo:Point ;
+    geo:lat "41.405092690581945"^^xsd:float ;
+    geo:long "2.15485498845792"^^xsd:float .
+
+ex:Bar/99400494451
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical Monopol" ;
+    ex:barType "Bars I Pubs Musicals|Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400494451 ;
+    geo:location ex:Location/99400494451 .
+
+ex:Address/99400494451
+    a schema:PostalAddress ;
+    schema:streetAddress "Pg Pg Sant Joan Bosco 47" ;
+    schema:postalCode "8017" ;
+    schema:addressLocality "Sarrià" ;
+    schema:addressRegion "Sarrià-sant Gervasi" ;
+    ex:neighborhoodId "23"^^xsd:integer ;
+    ex:districtId "5"^^xsd:integer .
+
+ex:Location/99400494451
+    a geo:Point ;
+    geo:lat "41.39659039304677"^^xsd:float ;
+    geo:long "2.1264879203914436"^^xsd:float .
+
+ex:Bar/99400547071
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical The Other Place" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/99400547071 ;
+    geo:location ex:Location/99400547071 .
+
+ex:Address/99400547071
+    a schema:PostalAddress ;
+    schema:streetAddress "Rambla Rambla Del Raval 34" ;
+    schema:postalCode "8001" ;
+    schema:addressLocality "El Raval" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "1"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/99400547071
+    a geo:Point ;
+    geo:lat "41.37890799797372"^^xsd:float ;
+    geo:long "2.172288138721669"^^xsd:float .
+
+ex:Bar/99400576722
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical La Cova Del Drac" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/99400576722 ;
+    geo:location ex:Location/99400576722 .
+
+ex:Address/99400576722
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Vallfogona 34" ;
+    schema:postalCode "8012" ;
+    schema:addressLocality "La Vila De Gràcia" ;
+    schema:addressRegion "Gràcia" ;
+    ex:neighborhoodId "31"^^xsd:integer ;
+    ex:districtId "6"^^xsd:integer .
+
+ex:Location/99400576722
+    a geo:Point ;
+    geo:lat "41.4035654522437"^^xsd:float ;
+    geo:long "2.1581452668516087"^^xsd:float .
+
+ex:Bar/99400701886
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Eclipse *hotel W" ;
+    ex:barType "Cocteleries|Xampanyeries|Restaurants" ;
+    schema:address ex:Address/99400701886 ;
+    geo:location ex:Location/99400701886 .
+
+ex:Address/99400701886
+    a schema:PostalAddress ;
+    schema:streetAddress "Pl Pl Rosa Dels Vents 1" ;
+    schema:postalCode "8039" ;
+    schema:addressLocality "La Barceloneta" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "3"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/99400701886
+    a geo:Point ;
+    geo:lat "41.36830588647039"^^xsd:float ;
+    geo:long "2.1932338141270557"^^xsd:float .
+
+ex:Bar/99400705527
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Bobby's Free" ;
+    ex:barType "Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400705527 ;
+    geo:location ex:Location/99400705527 .
+
+ex:Address/99400705527
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer De Pau Claris 85" ;
+    schema:postalCode "8010" ;
+    schema:addressLocality "La Dreta De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "7"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/99400705527
+    a geo:Point ;
+    geo:lat "41.39130768913348"^^xsd:float ;
+    geo:long "2.1711210210084534"^^xsd:float .
+
+ex:Bar/99400576133
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical El Forat" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/99400576133 ;
+    geo:location ex:Location/99400576133 .
+
+ex:Address/99400576133
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Salses 31" ;
+    schema:postalCode "8028" ;
+    schema:addressLocality "La Sagrera" ;
+    schema:addressRegion "Sant Andreu" ;
+    ex:neighborhoodId "62"^^xsd:integer ;
+    ex:districtId "9"^^xsd:integer .
+
+ex:Location/99400576133
+    a geo:Point ;
+    geo:lat "41.42442470764491"^^xsd:float ;
+    geo:long "2.1813133649520976"^^xsd:float .
+
+ex:Bar/99400191285
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical La Sala" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/99400191285 ;
+    geo:location ex:Location/99400191285 .
+
+ex:Address/99400191285
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Sants 54" ;
+    schema:postalCode "8014" ;
+    schema:addressLocality "Sants" ;
+    schema:addressRegion "Sants-montjuïc" ;
+    ex:neighborhoodId "14"^^xsd:integer ;
+    ex:districtId "3"^^xsd:integer .
+
+ex:Location/99400191285
+    a geo:Point ;
+    geo:lat "41.37763177659556"^^xsd:float ;
+    geo:long "2.1384067982236597"^^xsd:float .
+
+ex:Bar/99400700871
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical Les Qüestions Que J'aime" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/99400700871 ;
+    geo:location ex:Location/99400700871 .
+
+ex:Address/99400700871
+    a schema:PostalAddress ;
+    schema:streetAddress " Av Av Josep Tarradellas 123" ;
+    schema:postalCode "8029" ;
+    schema:addressLocality "La Nova Esquerra De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "9"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/99400700871
+    a geo:Point ;
+    geo:lat "41.38612140417243"^^xsd:float ;
+    geo:long "2.14660855269707"^^xsd:float .
+
+ex:Bar/99400706536
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar La Confiteria" ;
+    ex:barType "Bars I Pubs Musicals|Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400706536 ;
+    geo:location ex:Location/99400706536 .
+
+ex:Address/99400706536
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer De Balmes 229" ;
+    schema:postalCode "8006" ;
+    schema:addressLocality "Sant Gervasi - Galvany" ;
+    schema:addressRegion "Sarrià-sant Gervasi" ;
+    ex:neighborhoodId "26"^^xsd:integer ;
+    ex:districtId "5"^^xsd:integer .
+
+ex:Location/99400706536
+    a geo:Point ;
+    geo:lat "41.3968600213898"^^xsd:float ;
+    geo:long "2.1555543666299317"^^xsd:float .
+
+ex:Bar/99400713398
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Restaurant Paradiso" ;
+    ex:barType "Cocteleries|Xampanyeries|Restaurants" ;
+    schema:address ex:Address/99400713398 ;
+    geo:location ex:Location/99400713398 .
+
+ex:Address/99400713398
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer De Rera Palau 4" ;
+    schema:postalCode "8003" ;
+    schema:addressLocality "Sant Pere, Santa Caterina I La Ribera" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "4"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/99400713398
+    a geo:Point ;
+    geo:lat "41.38531557766155"^^xsd:float ;
+    geo:long "2.1837424161879717"^^xsd:float .
+
+ex:Bar/75990208119
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Sala El Sol *rambla De Catalunya" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/75990208119 ;
+    geo:location ex:Location/75990208119 .
+
+ex:Address/75990208119
+    a schema:PostalAddress ;
+    schema:streetAddress "Rambla Rambla De Catalunya 27" ;
+    schema:postalCode "8007" ;
+    schema:addressLocality "La Dreta De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "7"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/75990208119
+    a geo:Point ;
+    geo:lat "41.38722416395914"^^xsd:float ;
+    geo:long "2.169123826227656"^^xsd:float .
+
+ex:Bar/99400710606
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Dr Stravinsky" ;
+    ex:barType "Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400710606 ;
+    geo:location ex:Location/99400710606 .
+
+ex:Address/99400710606
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer De Mirallers 5" ;
+    schema:postalCode "8003" ;
+    schema:addressLocality "Sant Pere, Santa Caterina I La Ribera" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "4"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/99400710606
+    a geo:Point ;
+    geo:lat "41.38515091722026"^^xsd:float ;
+    geo:long "2.183865679502905"^^xsd:float .
+
+ex:Bar/75990176313
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical Big Fun" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/75990176313 ;
+    geo:location ex:Location/75990176313 .
+
+ex:Address/75990176313
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Vistalegre 1" ;
+    schema:postalCode "8001" ;
+    schema:addressLocality "El Raval" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "1"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/75990176313
+    a geo:Point ;
+    geo:lat "41.37894356499388"^^xsd:float ;
+    geo:long "2.172403986866297"^^xsd:float .
+
+ex:Bar/99400494458
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical The Other Place" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/99400494458 ;
+    geo:location ex:Location/99400494458 .
+
+ex:Address/99400494458
+    a schema:PostalAddress ;
+    schema:streetAddress "Rambla Rambla Del Raval 34" ;
+    schema:postalCode "8001" ;
+    schema:addressLocality "El Raval" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "1"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/99400494458
+    a geo:Point ;
+    geo:lat "41.37890799797372"^^xsd:float ;
+    geo:long "2.172288138721669"^^xsd:float .
+
+ex:Bar/99400689405
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical Garage 442" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/99400689405 ;
+    geo:location ex:Location/99400689405 .
+
+ex:Address/99400689405
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer D'aribau 103" ;
+    schema:postalCode "8036" ;
+    schema:addressLocality "L'antiga Esquerra De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "8"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/99400689405
+    a geo:Point ;
+    geo:lat "41.390342854588354"^^xsd:float ;
+    geo:long "2.156566649656205"^^xsd:float .
+
+ex:Bar/99400713364
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar El Speakeasy" ;
+    ex:barType "Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400713364 ;
+    geo:location ex:Location/99400713364 .
+
+ex:Address/99400713364
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer De Rocafort 244" ;
+    schema:postalCode "8029" ;
+    schema:addressLocality "La Nova Esquerra De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "9"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/99400713364
+    a geo:Point ;
+    geo:lat "41.38507204981881"^^xsd:float ;
+    geo:long "2.146200236054817"^^xsd:float .
+
+ex:Bar/75990208126
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical Rècord" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/75990208126 ;
+    geo:location ex:Location/75990208126 .
+
+ex:Address/75990208126
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Sants 111" ;
+    schema:postalCode "8014" ;
+    schema:addressLocality "Sants" ;
+    schema:addressRegion "Sants-montjuïc" ;
+    ex:neighborhoodId "14"^^xsd:integer ;
+    ex:districtId "3"^^xsd:integer .
+
+ex:Location/75990208126
+    a geo:Point ;
+    geo:lat "41.37894676527568"^^xsd:float ;
+    geo:long "2.1381395989218287"^^xsd:float .
+
+ex:Bar/99400701890
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Opium *hotel Arts" ;
+    ex:barType "Discoteques|Restaurants" ;
+    schema:address ex:Address/99400701890 ;
+    geo:location ex:Location/99400701890 .
+
+ex:Address/99400701890
+    a schema:PostalAddress ;
+    schema:streetAddress "Passeig Passeig Marítim De La Barceloneta - Oriol Bohigas 34" ;
+    schema:postalCode "8003" ;
+    schema:addressLocality "La Barceloneta" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "3"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/99400701890
+    a geo:Point ;
+    geo:lat "41.38608244222018"^^xsd:float ;
+    geo:long "2.195325852924151"^^xsd:float .
+
+ex:Bar/99400707323
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar The Confidant *hotel Mandarin Oriental" ;
+    ex:barType "Cocteleries|Xampanyeries|Restaurants" ;
+    schema:address ex:Address/99400707323 ;
+    geo:location ex:Location/99400707323 .
+
+ex:Address/99400707323
+    a schema:PostalAddress ;
+    schema:streetAddress "Pg Pg Gràcia 38" ;
+    schema:postalCode "8007" ;
+    schema:addressLocality "La Dreta De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "7"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/99400707323
+    a geo:Point ;
+    geo:lat "41.39088514120338"^^xsd:float ;
+    geo:long "2.1664150346376484"^^xsd:float .
+
+ex:Bar/99400684218
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical Los Diamantes" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/99400684218 ;
+    geo:location ex:Location/99400684218 .
+
+ex:Address/99400684218
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer De Bailèn 83" ;
+    schema:postalCode "8009" ;
+    schema:addressLocality "La Dreta De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "7"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/99400684218
+    a geo:Point ;
+    geo:lat "41.39414809886295"^^xsd:float ;
+    geo:long "2.1706686150247925"^^xsd:float .
+
+ex:Bar/99400709041
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Dr Stravinsky" ;
+    ex:barType "Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400709041 ;
+    geo:location ex:Location/99400709041 .
+
+ex:Address/99400709041
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer De Mirallers 5" ;
+    schema:postalCode "8003" ;
+    schema:addressLocality "Sant Pere, Santa Caterina I La Ribera" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "4"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/99400709041
+    a geo:Point ;
+    geo:lat "41.38515091722026"^^xsd:float ;
+    geo:long "2.183865679502905"^^xsd:float .
+
+ex:Bar/99400713374
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Boadas" ;
+    ex:barType "Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400713374 ;
+    geo:location ex:Location/99400713374 .
+
+ex:Address/99400713374
+    a schema:PostalAddress ;
+    schema:streetAddress "Rambla Rambla dels Estudis 1" ;
+    schema:postalCode "8002" ;
+    schema:addressLocality "El Barri Gòtic" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "2"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/99400713374
+    a geo:Point ;
+    geo:lat "41.384639908479326"^^xsd:float ;
+    geo:long "2.1731633513364027"^^xsd:float .
+
+ex:Bar/99400713388
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Cocteleria Slow" ;
+    ex:barType "Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400713388 ;
+    geo:location ex:Location/99400713388 .
+
+ex:Address/99400713388
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer De París 186" ;
+    schema:postalCode "8036" ;
+    schema:addressLocality "L'antiga Esquerra De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "8"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/99400713388
+    a geo:Point ;
+    geo:lat "41.39169722739423"^^xsd:float ;
+    geo:long "2.155798939634954"^^xsd:float .
+
+ex:Bar/99400713393
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Tandem" ;
+    ex:barType "Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400713393 ;
+    geo:location ex:Location/99400713393 .
+
+ex:Address/99400713393
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer D'aribau 86" ;
+    schema:postalCode "8036" ;
+    schema:addressLocality "L'antiga Esquerra De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "8"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/99400713393
+    a geo:Point ;
+    geo:lat "41.38977464082269"^^xsd:float ;
+    geo:long "2.1570777558778615"^^xsd:float .
+
+ex:Bar/75990204689
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical El Forat" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/75990204689 ;
+    geo:location ex:Location/75990204689 .
+
+ex:Address/75990204689
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Salses 31" ;
+    schema:postalCode "8028" ;
+    schema:addressLocality "La Sagrera" ;
+    schema:addressRegion "Sant Andreu" ;
+    ex:neighborhoodId "62"^^xsd:integer ;
+    ex:districtId "9"^^xsd:integer .
+
+ex:Location/75990204689
+    a geo:Point ;
+    geo:lat "41.42442470764491"^^xsd:float ;
+    geo:long "2.1813133649520976"^^xsd:float .
+
+ex:Bar/99400707525
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Restaurant Bar El Desván" ;
+    ex:barType "Cocteleries|Xampanyeries|Restaurants" ;
+    schema:address ex:Address/99400707525 ;
+    geo:location ex:Location/99400707525 .
+
+ex:Address/99400707525
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer D'aribau 150" ;
+    schema:postalCode "8036" ;
+    schema:addressLocality "L'antiga Esquerra De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "8"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/99400707525
+    a geo:Point ;
+    geo:lat "41.39207042591961"^^xsd:float ;
+    geo:long "2.1546562141646937"^^xsd:float .
+
+ex:Bar/75990177724
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Discoteca Marula Café" ;
+    ex:barType "Bars I Pubs Musicals|Discoteques" ;
+    schema:address ex:Address/75990177724 ;
+    geo:location ex:Location/75990177724 .
+
+ex:Address/75990177724
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Escudellers 49" ;
+    schema:postalCode "8002" ;
+    schema:addressLocality "El Barri Gòtic" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "2"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/75990177724
+    a geo:Point ;
+    geo:lat "41.37895475399589"^^xsd:float ;
+    geo:long "2.178385731976074"^^xsd:float .
+
+ex:Bar/99400713375
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Bobby's Free" ;
+    ex:barType "Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400713375 ;
+    geo:location ex:Location/99400713375 .
+
+ex:Address/99400713375
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer De Pau Claris 85" ;
+    schema:postalCode "8010" ;
+    schema:addressLocality "La Dreta De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "7"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/99400713375
+    a geo:Point ;
+    geo:lat "41.39130768913348"^^xsd:float ;
+    geo:long "2.1711210210084534"^^xsd:float .
+
+ex:Bar/99400589255
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical La Capella Dels Àngels" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/99400589255 ;
+    geo:location ex:Location/99400589255 .
+
+ex:Address/99400589255
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Àngels 6" ;
+    schema:postalCode "8001" ;
+    schema:addressLocality "El Raval" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "1"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/99400589255
+    a geo:Point ;
+    geo:lat "41.38318047910123"^^xsd:float ;
+    geo:long "2.170423023812726"^^xsd:float .
+
+ex:Bar/99400754221
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Cocteleria Focacha" ;
+    ex:barType "Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400754221 ;
+    geo:location ex:Location/99400754221 .
+
+ex:Address/99400754221
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer De Tuset 17" ;
+    schema:postalCode "8006" ;
+    schema:addressLocality "Sant Gervasi - Galvany" ;
+    schema:addressRegion "Sarrià-sant Gervasi" ;
+    ex:neighborhoodId "26"^^xsd:integer ;
+    ex:districtId "5"^^xsd:integer .
+
+ex:Location/99400754221
+    a geo:Point ;
+    geo:lat "41.39609626603632"^^xsd:float ;
+    geo:long "2.151556832415329"^^xsd:float .
+
+ex:Bar/99400604555
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Restaurant Feroz" ;
+    ex:barType "Cocteleries|Xampanyeries|Restaurants" ;
+    schema:address ex:Address/99400604555 ;
+    geo:location ex:Location/99400604555 .
+
+ex:Address/99400604555
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Tuset 27" ;
+    schema:postalCode "8006" ;
+    schema:addressLocality "Sant Gervasi - Galvany" ;
+    schema:addressRegion "Sarrià-sant Gervasi" ;
+    ex:neighborhoodId "26"^^xsd:integer ;
+    ex:districtId "5"^^xsd:integer .
+
+ex:Location/99400604555
+    a geo:Point ;
+    geo:lat "41.396581483249285"^^xsd:float ;
+    geo:long "2.150925337044923"^^xsd:float .
+
+ex:Bar/92086018833
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical Berimbau" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/92086018833 ;
+    geo:location ex:Location/92086018833 .
+
+ex:Address/92086018833
+    a schema:PostalAddress ;
+    schema:streetAddress "Pg Pg Born 17" ;
+    schema:postalCode "8003" ;
+    schema:addressLocality "Sant Pere, Santa Caterina I La Ribera" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "4"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/92086018833
+    a geo:Point ;
+    geo:lat "41.38473370117052"^^xsd:float ;
+    geo:long "2.1826265545975816"^^xsd:float .
+
+ex:Bar/75990177420
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Discoteca Karma" ;
+    ex:barType "Discoteques" ;
+    schema:address ex:Address/75990177420 ;
+    geo:location ex:Location/75990177420 .
+
+ex:Address/75990177420
+    a schema:PostalAddress ;
+    schema:streetAddress "Pl Pl Reial 10" ;
+    schema:postalCode "8002" ;
+    schema:addressLocality "El Barri Gòtic" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "2"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/75990177420
+    a geo:Point ;
+    geo:lat "41.38024675735264"^^xsd:float ;
+    geo:long "2.175402035978125"^^xsd:float .
+
+ex:Bar/75990204780
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical El Forat" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/75990204780 ;
+    geo:location ex:Location/75990204780 .
+
+ex:Address/75990204780
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Salses 31" ;
+    schema:postalCode "8028" ;
+    schema:addressLocality "La Sagrera" ;
+    schema:addressRegion "Sant Andreu" ;
+    ex:neighborhoodId "62"^^xsd:integer ;
+    ex:districtId "9"^^xsd:integer .
+
+ex:Location/75990204780
+    a geo:Point ;
+    geo:lat "41.42442470764491"^^xsd:float ;
+    geo:long "2.1813133649520976"^^xsd:float .
+
+ex:Bar/99400595995
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Restaurant Bar El Desván" ;
+    ex:barType "Cocteleries|Xampanyeries|Restaurants" ;
+    schema:address ex:Address/99400595995 ;
+    geo:location ex:Location/99400595995 .
+
+ex:Address/99400595995
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer D'aribau 150" ;
+    schema:postalCode "8036" ;
+    schema:addressLocality "L'antiga Esquerra De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "8"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/99400595995
+    a geo:Point ;
+    geo:lat "41.39207042591961"^^xsd:float ;
+    geo:long "2.1546562141646937"^^xsd:float .
+
+ex:Bar/99400619864
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical Belén" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/99400619864 ;
+    geo:location ex:Location/99400619864 .
+
+ex:Address/99400619864
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Muntaner 8" ;
+    schema:postalCode "8011" ;
+    schema:addressLocality "L'antiga Esquerra De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "8"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/99400619864
+    a geo:Point ;
+    geo:lat "41.38501170757279"^^xsd:float ;
+    geo:long "2.1627993077651066"^^xsd:float .
+
+ex:Bar/99400710609
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Two Schmucks" ;
+    ex:barType "Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400710609 ;
+    geo:location ex:Location/99400710609 .
+
+ex:Address/99400710609
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer De Joaquín Costa 52" ;
+    schema:postalCode "8001" ;
+    schema:addressLocality "El Raval" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "1"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/99400710609
+    a geo:Point ;
+    geo:lat "41.3831615294379"^^xsd:float ;
+    geo:long "2.1652030614999225"^^xsd:float .
+
+ex:Bar/75990205218
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical Cova Del Drac" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/75990205218 ;
+    geo:location ex:Location/75990205218 .
+
+ex:Address/75990205218
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Vallfogona 34" ;
+    schema:postalCode "8012" ;
+    schema:addressLocality "La Vila De Gràcia" ;
+    schema:addressRegion "Gràcia" ;
+    ex:neighborhoodId "31"^^xsd:integer ;
+    ex:districtId "6"^^xsd:integer .
+
+ex:Location/75990205218
+    a geo:Point ;
+    geo:lat "41.4035654522437"^^xsd:float ;
+    geo:long "2.1581452668516087"^^xsd:float .
+
+ex:Bar/99400707324
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Ideal Cocktail Bar" ;
+    ex:barType "Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400707324 ;
+    geo:location ex:Location/99400707324 .
+
+ex:Address/99400707324
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer D'aribau 89" ;
+    schema:postalCode "8036" ;
+    schema:addressLocality "L'antiga Esquerra De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "8"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/99400707324
+    a geo:Point ;
+    geo:lat "41.39003507119253"^^xsd:float ;
+    geo:long "2.156847427218322"^^xsd:float .
+
+ex:Bar/99400707340
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar The Alchemix" ;
+    ex:barType "Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400707340 ;
+    geo:location ex:Location/99400707340 .
+
+ex:Address/99400707340
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer De València 212" ;
+    schema:postalCode "8011" ;
+    schema:addressLocality "L'antiga Esquerra De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "8"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/99400707340
+    a geo:Point ;
+    geo:lat "41.389324182392755"^^xsd:float ;
+    geo:long "2.1589959188052603"^^xsd:float .
+
+ex:Bar/99400707524
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar The Confidant *hotel Mandarin Oriental" ;
+    ex:barType "Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400707524 ;
+    geo:location ex:Location/99400707524 .
+
+ex:Address/99400707524
+    a schema:PostalAddress ;
+    schema:streetAddress "Pg Pg Gràcia 38" ;
+    schema:postalCode "8007" ;
+    schema:addressLocality "La Dreta De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "7"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/99400707524
+    a geo:Point ;
+    geo:lat "41.39088514120338"^^xsd:float ;
+    geo:long "2.1664150346376484"^^xsd:float .
+
+ex:Bar/99400595213
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Restaurant Hotel Mandarin Oriental" ;
+    ex:barType "Cocteleries|Xampanyeries|Restaurants" ;
+    schema:address ex:Address/99400595213 ;
+    geo:location ex:Location/99400595213 .
+
+ex:Address/99400595213
+    a schema:PostalAddress ;
+    schema:streetAddress "Pg Pg Gràcia 38" ;
+    schema:postalCode "8007" ;
+    schema:addressLocality "La Dreta De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "7"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/99400595213
+    a geo:Point ;
+    geo:lat "41.39088514120338"^^xsd:float ;
+    geo:long "2.1664150346376484"^^xsd:float .
+
+ex:Bar/99400713369
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Trikini" ;
+    ex:barType "Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400713369 ;
+    geo:location ex:Location/99400713369 .
+
+ex:Address/99400713369
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer carrer de Pujades 226" ;
+    schema:postalCode "8005" ;
+    schema:addressLocality "El Poblenou" ;
+    schema:addressRegion "Sant Martí" ;
+    ex:neighborhoodId "68"^^xsd:integer ;
+    ex:districtId "10"^^xsd:integer .
+
+ex:Location/99400713369
+    a geo:Point ;
+    geo:lat "41.40306280651095"^^xsd:float ;
+    geo:long "2.2026978688852683"^^xsd:float .
+
+ex:Bar/99400710607
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Tandem" ;
+    ex:barType "Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400710607 ;
+    geo:location ex:Location/99400710607 .
+
+ex:Address/99400710607
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer D'aribau 86" ;
+    schema:postalCode "8036" ;
+    schema:addressLocality "L'antiga Esquerra De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "8"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/99400710607
+    a geo:Point ;
+    geo:lat "41.38977464082269"^^xsd:float ;
+    geo:long "2.1570777558778615"^^xsd:float .
+
+ex:Bar/99400713370
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Dr Stravinsky" ;
+    ex:barType "Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400713370 ;
+    geo:location ex:Location/99400713370 .
+
+ex:Address/99400713370
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer De Mirallers 5" ;
+    schema:postalCode "8003" ;
+    schema:addressLocality "Sant Pere, Santa Caterina I La Ribera" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "4"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/99400713370
+    a geo:Point ;
+    geo:lat "41.38515091722026"^^xsd:float ;
+    geo:long "2.183865679502905"^^xsd:float .
+
+ex:Bar/99400570185
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical Los Diamantes" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/99400570185 ;
+    geo:location ex:Location/99400570185 .
+
+ex:Address/99400570185
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer De Bailèn 83" ;
+    schema:postalCode "8009" ;
+    schema:addressLocality "La Dreta De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "7"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/99400570185
+    a geo:Point ;
+    geo:lat "41.39414809886295"^^xsd:float ;
+    geo:long "2.1706686150247925"^^xsd:float .
+
+ex:Bar/99400713365
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar El Speakeasy" ;
+    ex:barType "Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400713365 ;
+    geo:location ex:Location/99400713365 .
+
+ex:Address/99400713365
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer De Rocafort 244" ;
+    schema:postalCode "8029" ;
+    schema:addressLocality "La Nova Esquerra De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "9"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/99400713365
+    a geo:Point ;
+    geo:lat "41.38507204981881"^^xsd:float ;
+    geo:long "2.146200236054817"^^xsd:float .
+
+ex:Bar/99400707534
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Ideal Cocktail Bar" ;
+    ex:barType "Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400707534 ;
+    geo:location ex:Location/99400707534 .
+
+ex:Address/99400707534
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer D'aribau 89" ;
+    schema:postalCode "8036" ;
+    schema:addressLocality "L'antiga Esquerra De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "8"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/99400707534
+    a geo:Point ;
+    geo:lat "41.39003507119253"^^xsd:float ;
+    geo:long "2.156847427218322"^^xsd:float .
+
+ex:Bar/75990204683
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical Rècord" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/75990204683 ;
+    geo:location ex:Location/75990204683 .
+
+ex:Address/75990204683
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Sants 111" ;
+    schema:postalCode "8014" ;
+    schema:addressLocality "Sants" ;
+    schema:addressRegion "Sants-montjuïc" ;
+    ex:neighborhoodId "14"^^xsd:integer ;
+    ex:districtId "3"^^xsd:integer .
+
+ex:Location/75990204683
+    a geo:Point ;
+    geo:lat "41.37894676527568"^^xsd:float ;
+    geo:long "2.1381395989218287"^^xsd:float .
+
+ex:Bar/99400593450
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Boadas" ;
+    ex:barType "Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400593450 ;
+    geo:location ex:Location/99400593450 .
+
+ex:Address/99400593450
+    a schema:PostalAddress ;
+    schema:streetAddress "Rambla Rambla dels Estudis 1" ;
+    schema:postalCode "8002" ;
+    schema:addressLocality "El Barri Gòtic" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "2"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/99400593450
+    a geo:Point ;
+    geo:lat "41.384639908479326"^^xsd:float ;
+    geo:long "2.1731633513364027"^^xsd:float .
+
+ex:Bar/99400628383
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical Acústic Sant Andreu" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/99400628383 ;
+    geo:location ex:Location/99400628383 .
+
+ex:Address/99400628383
+    a schema:PostalAddress ;
+    schema:streetAddress " Rier Sant Andreu 9" ;
+    schema:postalCode "8030" ;
+    schema:addressLocality "Sant Andreu" ;
+    schema:addressRegion "Sant Andreu" ;
+    ex:neighborhoodId "60"^^xsd:integer ;
+    ex:districtId "9"^^xsd:integer .
+
+ex:Location/99400628383
+    a geo:Point ;
+    geo:lat "41.433849280854886"^^xsd:float ;
+    geo:long "2.1887417797790394"^^xsd:float .
+
+ex:Bar/99400690048
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Eclipse *hotel W" ;
+    ex:barType "Cocteleries|Xampanyeries|Restaurants" ;
+    schema:address ex:Address/99400690048 ;
+    geo:location ex:Location/99400690048 .
+
+ex:Address/99400690048
+    a schema:PostalAddress ;
+    schema:streetAddress "Pl Pl Rosa Dels Vents 1" ;
+    schema:postalCode "8039" ;
+    schema:addressLocality "La Barceloneta" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "3"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/99400690048
+    a geo:Point ;
+    geo:lat "41.36830588647039"^^xsd:float ;
+    geo:long "2.1932338141270557"^^xsd:float .
+
+ex:Bar/99400705528
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Cocteleria Slow" ;
+    ex:barType "Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400705528 ;
+    geo:location ex:Location/99400705528 .
+
+ex:Address/99400705528
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer De París 186" ;
+    schema:postalCode "8036" ;
+    schema:addressLocality "L'antiga Esquerra De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "8"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/99400705528
+    a geo:Point ;
+    geo:lat "41.39169722739423"^^xsd:float ;
+    geo:long "2.155798939634954"^^xsd:float .
+
+ex:Bar/99400706534
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar La Confiteria" ;
+    ex:barType "Bars I Pubs Musicals|Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400706534 ;
+    geo:location ex:Location/99400706534 .
+
+ex:Address/99400706534
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer De Balmes 229" ;
+    schema:postalCode "8006" ;
+    schema:addressLocality "Sant Gervasi - Galvany" ;
+    schema:addressRegion "Sarrià-sant Gervasi" ;
+    ex:neighborhoodId "26"^^xsd:integer ;
+    ex:districtId "5"^^xsd:integer .
+
+ex:Location/99400706534
+    a geo:Point ;
+    geo:lat "41.3968600213898"^^xsd:float ;
+    geo:long "2.1555543666299317"^^xsd:float .
+
+ex:Bar/99400709042
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Opium *hotel Arts" ;
+    ex:barType "Discoteques|Restaurants" ;
+    schema:address ex:Address/99400709042 ;
+    geo:location ex:Location/99400709042 .
+
+ex:Address/99400709042
+    a schema:PostalAddress ;
+    schema:streetAddress "Passeig Passeig Marítim De La Barceloneta - Oriol Bohigas 34" ;
+    schema:postalCode "8003" ;
+    schema:addressLocality "La Barceloneta" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "3"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/99400709042
+    a geo:Point ;
+    geo:lat "41.38608244222018"^^xsd:float ;
+    geo:long "2.195325852924151"^^xsd:float .
+
+ex:Bar/99400604470
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical La Capella Dels Àngels" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/99400604470 ;
+    geo:location ex:Location/99400604470 .
+
+ex:Address/99400604470
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Àngels 6" ;
+    schema:postalCode "8001" ;
+    schema:addressLocality "El Raval" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "1"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/99400604470
+    a geo:Point ;
+    geo:lat "41.38318047910123"^^xsd:float ;
+    geo:long "2.170423023812726"^^xsd:float .
+
+ex:Bar/99400713371
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar El Speakeasy" ;
+    ex:barType "Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400713371 ;
+    geo:location ex:Location/99400713371 .
+
+ex:Address/99400713371
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer De Rocafort 244" ;
+    schema:postalCode "8029" ;
+    schema:addressLocality "La Nova Esquerra De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "9"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/99400713371
+    a geo:Point ;
+    geo:lat "41.38507204981881"^^xsd:float ;
+    geo:long "2.146200236054817"^^xsd:float .
+
+ex:Bar/99400690047
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Opium *hotel Arts" ;
+    ex:barType "Discoteques|Restaurants" ;
+    schema:address ex:Address/99400690047 ;
+    geo:location ex:Location/99400690047 .
+
+ex:Address/99400690047
+    a schema:PostalAddress ;
+    schema:streetAddress "Passeig Passeig Marítim De La Barceloneta - Oriol Bohigas 34" ;
+    schema:postalCode "8003" ;
+    schema:addressLocality "La Barceloneta" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "3"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/99400690047
+    a geo:Point ;
+    geo:lat "41.38608244222018"^^xsd:float ;
+    geo:long "2.195325852924151"^^xsd:float .
+
+ex:Bar/99400713373
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Tandem" ;
+    ex:barType "Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400713373 ;
+    geo:location ex:Location/99400713373 .
+
+ex:Address/99400713373
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer D'aribau 86" ;
+    schema:postalCode "8036" ;
+    schema:addressLocality "L'antiga Esquerra De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "8"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/99400713373
+    a geo:Point ;
+    geo:lat "41.38977464082269"^^xsd:float ;
+    geo:long "2.1570777558778615"^^xsd:float .
+
+ex:Bar/99400701889
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Eclipse *hotel W" ;
+    ex:barType "Cocteleries|Xampanyeries|Restaurants" ;
+    schema:address ex:Address/99400701889 ;
+    geo:location ex:Location/99400701889 .
+
+ex:Address/99400701889
+    a schema:PostalAddress ;
+    schema:streetAddress "Pl Pl Rosa Dels Vents 1" ;
+    schema:postalCode "8039" ;
+    schema:addressLocality "La Barceloneta" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "3"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/99400701889
+    a geo:Point ;
+    geo:lat "41.36830588647039"^^xsd:float ;
+    geo:long "2.1932338141270557"^^xsd:float .
+
+ex:Bar/75990212071
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical Marley" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/75990212071 ;
+    geo:location ex:Location/75990212071 .
+
+ex:Address/75990212071
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Joan Torras 25" ;
+    schema:postalCode "8030" ;
+    schema:addressLocality "Sant Andreu" ;
+    schema:addressRegion "Sant Andreu" ;
+    ex:neighborhoodId "60"^^xsd:integer ;
+    ex:districtId "9"^^xsd:integer .
+
+ex:Location/75990212071
+    a geo:Point ;
+    geo:lat "41.43784665009436"^^xsd:float ;
+    geo:long "2.191695745136286"^^xsd:float .
+
+ex:Bar/99400593457
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Ideal Cocktail Bar" ;
+    ex:barType "Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400593457 ;
+    geo:location ex:Location/99400593457 .
+
+ex:Address/99400593457
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer D'aribau 89" ;
+    schema:postalCode "8036" ;
+    schema:addressLocality "L'antiga Esquerra De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "8"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/99400593457
+    a geo:Point ;
+    geo:lat "41.39003507119253"^^xsd:float ;
+    geo:long "2.156847427218322"^^xsd:float .
+
+ex:Bar/99400619712
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical Belén" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/99400619712 ;
+    geo:location ex:Location/99400619712 .
+
+ex:Address/99400619712
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Muntaner 8" ;
+    schema:postalCode "8011" ;
+    schema:addressLocality "L'antiga Esquerra De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "8"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/99400619712
+    a geo:Point ;
+    geo:lat "41.38501170757279"^^xsd:float ;
+    geo:long "2.1627993077651066"^^xsd:float .
+
+ex:Bar/99400713389
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Boadas" ;
+    ex:barType "Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400713389 ;
+    geo:location ex:Location/99400713389 .
+
+ex:Address/99400713389
+    a schema:PostalAddress ;
+    schema:streetAddress "Rambla Rambla dels Estudis 1" ;
+    schema:postalCode "8002" ;
+    schema:addressLocality "El Barri Gòtic" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "2"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/99400713389
+    a geo:Point ;
+    geo:lat "41.384639908479326"^^xsd:float ;
+    geo:long "2.1731633513364027"^^xsd:float .
+
+ex:Bar/99400713372
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Cocteleria Slow" ;
+    ex:barType "Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400713372 ;
+    geo:location ex:Location/99400713372 .
+
+ex:Address/99400713372
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer De París 186" ;
+    schema:postalCode "8036" ;
+    schema:addressLocality "L'antiga Esquerra De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "8"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/99400713372
+    a geo:Point ;
+    geo:lat "41.39169722739423"^^xsd:float ;
+    geo:long "2.155798939634954"^^xsd:float .
+
+ex:Bar/99400595214
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Restaurant Hotel Mandarin Oriental" ;
+    ex:barType "Cocteleries|Xampanyeries|Restaurants" ;
+    schema:address ex:Address/99400595214 ;
+    geo:location ex:Location/99400595214 .
+
+ex:Address/99400595214
+    a schema:PostalAddress ;
+    schema:streetAddress "Pg Pg Gràcia 38" ;
+    schema:postalCode "8007" ;
+    schema:addressLocality "La Dreta De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "7"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/99400595214
+    a geo:Point ;
+    geo:lat "41.39088514120338"^^xsd:float ;
+    geo:long "2.1664150346376484"^^xsd:float .
+
+ex:Bar/75990204781
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical El Forat" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/75990204781 ;
+    geo:location ex:Location/75990204781 .
+
+ex:Address/75990204781
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Salses 31" ;
+    schema:postalCode "8028" ;
+    schema:addressLocality "La Sagrera" ;
+    schema:addressRegion "Sant Andreu" ;
+    ex:neighborhoodId "62"^^xsd:integer ;
+    ex:districtId "9"^^xsd:integer .
+
+ex:Location/75990204781
+    a geo:Point ;
+    geo:lat "41.42442470764491"^^xsd:float ;
+    geo:long "2.1813133649520976"^^xsd:float .
+
+ex:Bar/75990177726
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Discoteca Marula Café" ;
+    ex:barType "Bars I Pubs Musicals|Discoteques" ;
+    schema:address ex:Address/75990177726 ;
+    geo:location ex:Location/75990177726 .
+
+ex:Address/75990177726
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Escudellers 49" ;
+    schema:postalCode "8002" ;
+    schema:addressLocality "El Barri Gòtic" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "2"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/75990177726
+    a geo:Point ;
+    geo:lat "41.37895475399589"^^xsd:float ;
+    geo:long "2.178385731976074"^^xsd:float .
+
+ex:Bar/99400707325
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar The Alchemix" ;
+    ex:barType "Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400707325 ;
+    geo:location ex:Location/99400707325 .
+
+ex:Address/99400707325
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer De València 212" ;
+    schema:postalCode "8011" ;
+    schema:addressLocality "L'antiga Esquerra De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "8"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/99400707325
+    a geo:Point ;
+    geo:lat "41.389324182392755"^^xsd:float ;
+    geo:long "2.1589959188052603"^^xsd:float .
+
+ex:Bar/99400707527
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Restaurant Bar El Desván" ;
+    ex:barType "Cocteleries|Xampanyeries|Restaurants" ;
+    schema:address ex:Address/99400707527 ;
+    geo:location ex:Location/99400707527 .
+
+ex:Address/99400707527
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer D'aribau 150" ;
+    schema:postalCode "8036" ;
+    schema:addressLocality "L'antiga Esquerra De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "8"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/99400707527
+    a geo:Point ;
+    geo:lat "41.39207042591961"^^xsd:float ;
+    geo:long "2.1546562141646937"^^xsd:float .
+
+ex:Bar/99400595994
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Restaurant Bar El Desván" ;
+    ex:barType "Cocteleries|Xampanyeries|Restaurants" ;
+    schema:address ex:Address/99400595994 ;
+    geo:location ex:Location/99400595994 .
+
+ex:Address/99400595994
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer D'aribau 150" ;
+    schema:postalCode "8036" ;
+    schema:addressLocality "L'antiga Esquerra De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "8"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/99400595994
+    a geo:Point ;
+    geo:lat "41.39207042591961"^^xsd:float ;
+    geo:long "2.1546562141646937"^^xsd:float .
+
+ex:Bar/75990204684
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical Rècord" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/75990204684 ;
+    geo:location ex:Location/75990204684 .
+
+ex:Address/75990204684
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Sants 111" ;
+    schema:postalCode "8014" ;
+    schema:addressLocality "Sants" ;
+    schema:addressRegion "Sants-montjuïc" ;
+    ex:neighborhoodId "14"^^xsd:integer ;
+    ex:districtId "3"^^xsd:integer .
+
+ex:Location/75990204684
+    a geo:Point ;
+    geo:lat "41.37894676527568"^^xsd:float ;
+    geo:long "2.1381395989218287"^^xsd:float .
+
+ex:Bar/99400593453
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Boadas" ;
+    ex:barType "Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400593453 ;
+    geo:location ex:Location/99400593453 .
+
+ex:Address/99400593453
+    a schema:PostalAddress ;
+    schema:streetAddress "Rambla Rambla dels Estudis 1" ;
+    schema:postalCode "8002" ;
+    schema:addressLocality "El Barri Gòtic" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "2"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/99400593453
+    a geo:Point ;
+    geo:lat "41.384639908479326"^^xsd:float ;
+    geo:long "2.1731633513364027"^^xsd:float .
+
+ex:Bar/99400593454
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Ideal Cocktail Bar" ;
+    ex:barType "Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400593454 ;
+    geo:location ex:Location/99400593454 .
+
+ex:Address/99400593454
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer D'aribau 89" ;
+    schema:postalCode "8036" ;
+    schema:addressLocality "L'antiga Esquerra De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "8"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/99400593454
+    a geo:Point ;
+    geo:lat "41.39003507119253"^^xsd:float ;
+    geo:long "2.156847427218322"^^xsd:float .
+
+ex:Bar/99400593460
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Tandem" ;
+    ex:barType "Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400593460 ;
+    geo:location ex:Location/99400593460 .
+
+ex:Address/99400593460
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer D'aribau 86" ;
+    schema:postalCode "8036" ;
+    schema:addressLocality "L'antiga Esquerra De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "8"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/99400593460
+    a geo:Point ;
+    geo:lat "41.38977464082269"^^xsd:float ;
+    geo:long "2.1570777558778615"^^xsd:float .
+
+ex:Bar/99400593456
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Dr Stravinsky" ;
+    ex:barType "Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400593456 ;
+    geo:location ex:Location/99400593456 .
+
+ex:Address/99400593456
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer De Mirallers 5" ;
+    schema:postalCode "8003" ;
+    schema:addressLocality "Sant Pere, Santa Caterina I La Ribera" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "4"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/99400593456
+    a geo:Point ;
+    geo:lat "41.38515091722026"^^xsd:float ;
+    geo:long "2.183865679502905"^^xsd:float .
+
+ex:Bar/99400593463
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Cocteleria Slow" ;
+    ex:barType "Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400593463 ;
+    geo:location ex:Location/99400593463 .
+
+ex:Address/99400593463
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer De París 186" ;
+    schema:postalCode "8036" ;
+    schema:addressLocality "L'antiga Esquerra De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "8"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/99400593463
+    a geo:Point ;
+    geo:lat "41.39169722739423"^^xsd:float ;
+    geo:long "2.155798939634954"^^xsd:float .
+
+ex:Bar/99400713368
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Pantera Mambo Barcelona" ;
+    ex:barType "Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400713368 ;
+    geo:location ex:Location/99400713368 .
+
+ex:Address/99400713368
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer De Joaquín Costa 39" ;
+    schema:postalCode "8001" ;
+    schema:addressLocality "El Raval" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "1"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/99400713368
+    a geo:Point ;
+    geo:lat "41.382614921981634"^^xsd:float ;
+    geo:long "2.1656396074445134"^^xsd:float .
+
+ex:Bar/99400593452
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Nevermind" ;
+    ex:barType "Cocteleries|Xampanyeries|Altres Esports|Instal·lacions Esportives" ;
+    schema:address ex:Address/99400593452 ;
+    geo:location ex:Location/99400593452 .
+
+ex:Address/99400593452
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Tallers 68" ;
+    schema:postalCode "8001" ;
+    schema:addressLocality "El Raval" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "1"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/99400593452
+    a geo:Point ;
+    geo:lat "41.3850530367574"^^xsd:float ;
+    geo:long "2.1664467041469133"^^xsd:float .
+
+ex:Bar/75990212069
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical Marley" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/75990212069 ;
+    geo:location ex:Location/75990212069 .
+
+ex:Address/75990212069
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Joan Torras 25" ;
+    schema:postalCode "8030" ;
+    schema:addressLocality "Sant Andreu" ;
+    schema:addressRegion "Sant Andreu" ;
+    ex:neighborhoodId "60"^^xsd:integer ;
+    ex:districtId "9"^^xsd:integer .
+
+ex:Location/75990212069
+    a geo:Point ;
+    geo:lat "41.43784665009436"^^xsd:float ;
+    geo:long "2.191695745136286"^^xsd:float .
+
+ex:Bar/99400533965
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Restaurant Maná 75" ;
+    ex:barType "Cocteleries|Xampanyeries|Restaurants" ;
+    schema:address ex:Address/99400533965 ;
+    geo:location ex:Location/99400533965 .
+
+ex:Address/99400533965
+    a schema:PostalAddress ;
+    schema:streetAddress "Pg Pg Joan Borbó Comte Barcelona 101" ;
+    schema:postalCode "8039" ;
+    schema:addressLocality "La Barceloneta" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "3"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/99400533965
+    a geo:Point ;
+    geo:lat "41.371330800626644"^^xsd:float ;
+    geo:long "2.1876265993001707"^^xsd:float .
+
+ex:Bar/99400533971
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Restaurant Nº 30" ;
+    ex:barType "Cocteleries|Xampanyeries|Restaurants" ;
+    schema:address ex:Address/99400533971 ;
+    geo:location ex:Location/99400533971 .
+
+ex:Address/99400533971
+    a schema:PostalAddress ;
+    schema:streetAddress "Pg Pg Joan Borbó Comte Barcelona 30" ;
+    schema:postalCode "8003" ;
+    schema:addressLocality "La Barceloneta" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "3"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/99400533971
+    a geo:Point ;
+    geo:lat "41.37904016646946"^^xsd:float ;
+    geo:long "2.1880414416045597"^^xsd:float .
+
+ex:Bar/283174135
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar La Confiteria" ;
+    ex:barType "Bars I Pubs Musicals|Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/283174135 ;
+    geo:location ex:Location/283174135 .
+
+ex:Address/283174135
+    a schema:PostalAddress ;
+    schema:streetAddress " Sant Pau 128" ;
+    schema:postalCode "8001" ;
+    schema:addressLocality "El Raval" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "1"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/283174135
+    a geo:Point ;
+    geo:lat "41.3755185559786"^^xsd:float ;
+    geo:long "2.167940633280248"^^xsd:float .
+
+ex:Bar/99400698843
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Cocteleria Monk" ;
+    ex:barType "Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400698843 ;
+    geo:location ex:Location/99400698843 .
+
+ex:Address/99400698843
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer dels Abaixadors 6" ;
+    schema:postalCode "8003" ;
+    schema:addressLocality "Sant Pere, Santa Caterina I La Ribera" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "4"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/99400698843
+    a geo:Point ;
+    geo:lat "41.38310592859262"^^xsd:float ;
+    geo:long "2.181191553452184"^^xsd:float .
+
+ex:Bar/99400594205
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Restaurant Saraya Shisha Club" ;
+    ex:barType "Cocteleries|Xampanyeries|Restaurants" ;
+    schema:address ex:Address/99400594205 ;
+    geo:location ex:Location/99400594205 .
+
+ex:Address/99400594205
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Muntaner 102" ;
+    schema:postalCode "8036" ;
+    schema:addressLocality "L'antiga Esquerra De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "8"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/99400594205
+    a geo:Point ;
+    geo:lat "41.388688726870086"^^xsd:float ;
+    geo:long "2.156915802866232"^^xsd:float .
+
+ex:Bar/99400574271
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Restaurant Cocteleria Barítimo *maremàgnum" ;
+    ex:barType "Cocteleries|Xampanyeries|Restaurants" ;
+    schema:address ex:Address/99400574271 ;
+    geo:location ex:Location/99400574271 .
+
+ex:Address/99400574271
+    a schema:PostalAddress ;
+    schema:streetAddress " Moll Espanya 5" ;
+    schema:postalCode "8039" ;
+    schema:addressLocality "El Barri Gòtic" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "2"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/99400574271
+    a geo:Point ;
+    geo:lat "41.375450271691385"^^xsd:float ;
+    geo:long "2.182393934529025"^^xsd:float .
+
+ex:Bar/325120405
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Atlàntic Bar" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/325120405 ;
+    geo:location ex:Location/325120405 .
+
+ex:Address/325120405
+    a schema:PostalAddress ;
+    schema:streetAddress "Av Av Tibidabo 56" ;
+    schema:postalCode "8035" ;
+    schema:addressLocality "Sant Gervasi - La Bonanova" ;
+    schema:addressRegion "Sarrià-sant Gervasi" ;
+    ex:neighborhoodId "25"^^xsd:integer ;
+    ex:districtId "5"^^xsd:integer .
+
+ex:Location/325120405
+    a geo:Point ;
+    geo:lat "41.41536627252069"^^xsd:float ;
+    geo:long "2.131617012042792"^^xsd:float .
+
+ex:Bar/92086025237
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical Abanico" ;
+    ex:barType "Bars I Pubs Musicals|Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/92086025237 ;
+    geo:location ex:Location/92086025237 .
+
+ex:Address/92086025237
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Camp 3" ;
+    schema:postalCode "8021" ;
+    schema:addressLocality "Sant Gervasi - Galvany" ;
+    schema:addressRegion "Sarrià-sant Gervasi" ;
+    ex:neighborhoodId "26"^^xsd:integer ;
+    ex:districtId "5"^^xsd:integer .
+
+ex:Location/92086025237
+    a geo:Point ;
+    geo:lat "41.401629005577384"^^xsd:float ;
+    geo:long "2.13817494725461"^^xsd:float .
+
+ex:Bar/99088120249
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Discoteca La Terrrazza *poble Espanyol" ;
+    ex:barType "Discoteques" ;
+    schema:address ex:Address/99088120249 ;
+    geo:location ex:Location/99088120249 .
+
+ex:Address/99088120249
+    a schema:PostalAddress ;
+    schema:streetAddress "Av Av Francesc Ferrer Guàrdia 13" ;
+    schema:postalCode "8038" ;
+    schema:addressLocality "El Poble-sec" ;
+    schema:addressRegion "Sants-montjuïc" ;
+    ex:neighborhoodId "11"^^xsd:integer ;
+    ex:districtId "3"^^xsd:integer .
+
+ex:Location/99088120249
+    a geo:Point ;
+    geo:lat "41.36914809976752"^^xsd:float ;
+    geo:long "2.1467430809493484"^^xsd:float .
+
+ex:Bar/75990174459
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Sala Plataforma" ;
+    ex:barType "Bars I Pubs Musicals|Discoteques" ;
+    schema:address ex:Address/75990174459 ;
+    geo:location ex:Location/75990174459 .
+
+ex:Address/75990174459
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Nou De La Rambla 145" ;
+    schema:postalCode "8004" ;
+    schema:addressLocality "El Poble-sec" ;
+    schema:addressRegion "Sants-montjuïc" ;
+    ex:neighborhoodId "11"^^xsd:integer ;
+    ex:districtId "3"^^xsd:integer .
+
+ex:Location/75990174459
+    a geo:Point ;
+    geo:lat "41.3729218744942"^^xsd:float ;
+    geo:long "2.1680044328607373"^^xsd:float .
+
+ex:Bar/75990210497
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical Marley" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/75990210497 ;
+    geo:location ex:Location/75990210497 .
+
+ex:Address/75990210497
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Joan Torras 25" ;
+    schema:postalCode "8030" ;
+    schema:addressLocality "Sant Andreu" ;
+    schema:addressRegion "Sant Andreu" ;
+    ex:neighborhoodId "60"^^xsd:integer ;
+    ex:districtId "9"^^xsd:integer .
+
+ex:Location/75990210497
+    a geo:Point ;
+    geo:lat "41.43784665009436"^^xsd:float ;
+    geo:long "2.191695745136286"^^xsd:float .
+
+ex:Bar/99400152409
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Salsongu" ;
+    ex:barType "Discoteques" ;
+    schema:address ex:Address/99400152409 ;
+    geo:location ex:Location/99400152409 .
+
+ex:Address/99400152409
+    a schema:PostalAddress ;
+    schema:streetAddress " Ptge Utset 11" ;
+    schema:postalCode "8013" ;
+    schema:addressLocality "La Sagrada Família" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "6"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/99400152409
+    a geo:Point ;
+    geo:lat "41.40449939478798"^^xsd:float ;
+    geo:long "2.1779112755310126"^^xsd:float .
+
+ex:Bar/75990102528
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Discoteca Performance Con Atxé" ;
+    ex:barType "Discoteques" ;
+    schema:address ex:Address/75990102528 ;
+    geo:location ex:Location/75990102528 .
+
+ex:Address/75990102528
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Provença 43" ;
+    schema:postalCode "8029" ;
+    schema:addressLocality "La Nova Esquerra De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "9"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/75990102528
+    a geo:Point ;
+    geo:lat "41.38423837354681"^^xsd:float ;
+    geo:long "2.147176397035106"^^xsd:float .
+
+ex:Bar/99400384118
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Treze" ;
+    ex:barType "Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400384118 ;
+    geo:location ex:Location/99400384118 .
+
+ex:Address/99400384118
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Major De Sarrià 115" ;
+    schema:postalCode "8017" ;
+    schema:addressLocality "Sarrià" ;
+    schema:addressRegion "Sarrià-sant Gervasi" ;
+    ex:neighborhoodId "23"^^xsd:integer ;
+    ex:districtId "5"^^xsd:integer .
+
+ex:Location/99400384118
+    a geo:Point ;
+    geo:lat "41.40056704225509"^^xsd:float ;
+    geo:long "2.120776021419042"^^xsd:float .
+
+ex:Bar/75990053120
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Club Sauvage" ;
+    ex:barType "Bars I Pubs Musicals|Discoteques" ;
+    schema:address ex:Address/75990053120 ;
+    geo:location ex:Location/75990053120 .
+
+ex:Address/75990053120
+    a schema:PostalAddress ;
+    schema:streetAddress "Pl Pl Reial 7" ;
+    schema:postalCode "8002" ;
+    schema:addressLocality "El Barri Gòtic" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "2"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/75990053120
+    a geo:Point ;
+    geo:lat "41.38057557729068"^^xsd:float ;
+    geo:long "2.175192398978123"^^xsd:float .
+
+ex:Bar/1033142109
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Cerveseria Antibiòtic" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/1033142109 ;
+    geo:location ex:Location/1033142109 .
+
+ex:Address/1033142109
+    a schema:PostalAddress ;
+    schema:streetAddress " Rocafort 225" ;
+    schema:postalCode "8029" ;
+    schema:addressLocality "La Nova Esquerra De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "9"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/1033142109
+    a geo:Point ;
+    geo:lat "41.38450415759101"^^xsd:float ;
+    geo:long "2.1462705631276715"^^xsd:float .
+
+ex:Bar/75990118546
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Cocteleria Gimlet" ;
+    ex:barType "Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/75990118546 ;
+    geo:location ex:Location/75990118546 .
+
+ex:Address/75990118546
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Santaló 46" ;
+    schema:postalCode "8021" ;
+    schema:addressLocality "Sant Gervasi - Galvany" ;
+    schema:addressRegion "Sarrià-sant Gervasi" ;
+    ex:neighborhoodId "26"^^xsd:integer ;
+    ex:districtId "5"^^xsd:integer .
+
+ex:Location/75990118546
+    a geo:Point ;
+    geo:lat "41.39612524673916"^^xsd:float ;
+    geo:long "2.1453881871688365"^^xsd:float .
+
+ex:Bar/92274113444
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical Aire - Sala Diana" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/92274113444 ;
+    geo:location ex:Location/92274113444 .
+
+ex:Address/92274113444
+    a schema:PostalAddress ;
+    schema:streetAddress " València 236" ;
+    schema:postalCode "8007" ;
+    schema:addressLocality "L'antiga Esquerra De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "8"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/92274113444
+    a geo:Point ;
+    geo:lat "41.39036579067319"^^xsd:float ;
+    geo:long "2.160382165443889"^^xsd:float .
+
+ex:Bar/99400621095
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Discoteca Ku Barcelona" ;
+    ex:barType "Discoteques|Restaurants" ;
+    schema:address ex:Address/99400621095 ;
+    geo:location ex:Location/99400621095 .
+
+ex:Address/99400621095
+    a schema:PostalAddress ;
+    schema:streetAddress "Passeig Passeig Marítim De La Barceloneta - Oriol Bohigas 38" ;
+    schema:postalCode "8003" ;
+    schema:addressLocality "La Barceloneta" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "3"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/99400621095
+    a geo:Point ;
+    geo:lat "41.38346152967782"^^xsd:float ;
+    geo:long "2.195232897771743"^^xsd:float .
+
+ex:Bar/99400709287
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Cocteleria Two Schmucks" ;
+    ex:barType "Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400709287 ;
+    geo:location ex:Location/99400709287 .
+
+ex:Address/99400709287
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer De Joaquín Costa 52" ;
+    schema:postalCode "8001" ;
+    schema:addressLocality "El Raval" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "1"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/99400709287
+    a geo:Point ;
+    geo:lat "41.3831615294379"^^xsd:float ;
+    geo:long "2.1652030614999225"^^xsd:float .
+
+ex:Bar/99400707530
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Soda Bus & Verne" ;
+    ex:barType "Cocteleries|Xampanyeries|Restaurants" ;
+    schema:address ex:Address/99400707530 ;
+    geo:location ex:Location/99400707530 .
+
+ex:Address/99400707530
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer D'aribau 150" ;
+    schema:postalCode "8036" ;
+    schema:addressLocality "L'antiga Esquerra De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "8"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/99400707530
+    a geo:Point ;
+    geo:lat "41.39207042591961"^^xsd:float ;
+    geo:long "2.1546562141646937"^^xsd:float .
+
+ex:Bar/99400191213
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Jamming Lounge" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/99400191213 ;
+    geo:location ex:Location/99400191213 .
+
+ex:Address/99400191213
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Vallfogona 23" ;
+    schema:postalCode "8012" ;
+    schema:addressLocality "La Vila De Gràcia" ;
+    schema:addressRegion "Gràcia" ;
+    ex:neighborhoodId "31"^^xsd:integer ;
+    ex:districtId "6"^^xsd:integer .
+
+ex:Location/99400191213
+    a geo:Point ;
+    geo:lat "41.40355210477575"^^xsd:float ;
+    geo:long "2.1579781437681316"^^xsd:float .
+
+ex:Bar/99400628371
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical Acústic Sant Andreu" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/99400628371 ;
+    geo:location ex:Location/99400628371 .
+
+ex:Address/99400628371
+    a schema:PostalAddress ;
+    schema:streetAddress " Rier Sant Andreu 9" ;
+    schema:postalCode "8030" ;
+    schema:addressLocality "Sant Andreu" ;
+    schema:addressRegion "Sant Andreu" ;
+    ex:neighborhoodId "60"^^xsd:integer ;
+    ex:districtId "9"^^xsd:integer .
+
+ex:Location/99400628371
+    a geo:Point ;
+    geo:lat "41.433849280854886"^^xsd:float ;
+    geo:long "2.1887417797790394"^^xsd:float .
+
+ex:Bar/99400608659
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Restaurant The Alchemix" ;
+    ex:barType "Cocteleries|Xampanyeries|Restaurants" ;
+    schema:address ex:Address/99400608659 ;
+    geo:location ex:Location/99400608659 .
+
+ex:Address/99400608659
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer De València 212" ;
+    schema:postalCode "8011" ;
+    schema:addressLocality "L'antiga Esquerra De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "8"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/99400608659
+    a geo:Point ;
+    geo:lat "41.389324182392755"^^xsd:float ;
+    geo:long "2.1589959188052603"^^xsd:float .
+
+ex:Bar/99400149744
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Cocteleria Mareva" ;
+    ex:barType "Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400149744 ;
+    geo:location ex:Location/99400149744 .
+
+ex:Address/99400149744
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer d'Aribau 54" ;
+    schema:postalCode "8011" ;
+    schema:addressLocality "L'antiga Esquerra De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "8"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/99400149744
+    a geo:Point ;
+    geo:lat "41.3880747357833"^^xsd:float ;
+    geo:long "2.159984736019471"^^xsd:float .
+
+ex:Bar/75990210234
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical Samba Brasil *horta" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/75990210234 ;
+    geo:location ex:Location/75990210234 .
+
+ex:Address/75990210234
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Santes Creus 20" ;
+    schema:postalCode "8031" ;
+    schema:addressLocality "Horta" ;
+    schema:addressRegion "Horta-guinardó" ;
+    ex:neighborhoodId "43"^^xsd:integer ;
+    ex:districtId "7"^^xsd:integer .
+
+ex:Location/75990210234
+    a geo:Point ;
+    geo:lat "41.43005584388977"^^xsd:float ;
+    geo:long "2.162112239199044"^^xsd:float .
+
+ex:Bar/99400683087
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Especiarium Bar" ;
+    ex:barType "Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400683087 ;
+    geo:location ex:Location/99400683087 .
+
+ex:Address/99400683087
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer De La Princesa 29" ;
+    schema:postalCode "8003" ;
+    schema:addressLocality "Sant Pere, Santa Caterina I La Ribera" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "4"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/99400683087
+    a geo:Point ;
+    geo:lat "41.385703390001815"^^xsd:float ;
+    geo:long "2.1807934178472212"^^xsd:float .
+
+ex:Bar/75990129348
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical Les Qents Que J'aime" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/75990129348 ;
+    geo:location ex:Location/75990129348 .
+
+ex:Address/75990129348
+    a schema:PostalAddress ;
+    schema:streetAddress "C C València 286" ;
+    schema:postalCode "8007" ;
+    schema:addressLocality "La Dreta De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "7"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/75990129348
+    a geo:Point ;
+    geo:lat "41.39373856963519"^^xsd:float ;
+    geo:long "2.164862225150066"^^xsd:float .
+
+ex:Bar/75990092642
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Taverna Anglesa City Arms" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/75990092642 ;
+    geo:location ex:Location/75990092642 .
+
+ex:Address/75990092642
+    a schema:PostalAddress ;
+    schema:streetAddress "Pl Pl Narcís Oller 9" ;
+    schema:postalCode "8006" ;
+    schema:addressLocality "La Vila De Gràcia" ;
+    schema:addressRegion "Gràcia" ;
+    ex:neighborhoodId "31"^^xsd:integer ;
+    ex:districtId "6"^^xsd:integer .
+
+ex:Location/75990092642
+    a geo:Point ;
+    geo:lat "41.39698227132229"^^xsd:float ;
+    geo:long "2.15547000350299"^^xsd:float .
+
+ex:Bar/75990292799
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Cafeteria Cinemateca" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/75990292799 ;
+    geo:location ex:Location/75990292799 .
+
+ex:Address/75990292799
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Pau Claris 120" ;
+    schema:postalCode "8009" ;
+    schema:addressLocality "La Dreta De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "7"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/75990292799
+    a geo:Point ;
+    geo:lat "41.39235893793418"^^xsd:float ;
+    geo:long "2.1678443194565924"^^xsd:float .
+
+ex:Bar/99400701254
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Trikini" ;
+    ex:barType "Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400701254 ;
+    geo:location ex:Location/99400701254 .
+
+ex:Address/99400701254
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer carrer de Pujades 226" ;
+    schema:postalCode "8005" ;
+    schema:addressLocality "El Poblenou" ;
+    schema:addressRegion "Sant Martí" ;
+    ex:neighborhoodId "68"^^xsd:integer ;
+    ex:districtId "10"^^xsd:integer .
+
+ex:Location/99400701254
+    a geo:Point ;
+    geo:lat "41.40306280651095"^^xsd:float ;
+    geo:long "2.2026978688852683"^^xsd:float .
+
+ex:Bar/99400709302
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Pantera Mambo Barcelona" ;
+    ex:barType "Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400709302 ;
+    geo:location ex:Location/99400709302 .
+
+ex:Address/99400709302
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer De Joaquín Costa 39" ;
+    schema:postalCode "8001" ;
+    schema:addressLocality "El Raval" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "1"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/99400709302
+    a geo:Point ;
+    geo:lat "41.382614921981634"^^xsd:float ;
+    geo:long "2.1656396074445134"^^xsd:float .
+
+ex:Bar/99400453808
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Taberna Tio Carlos" ;
+    ex:barType "Bars I Pubs Musicals|Restaurants" ;
+    schema:address ex:Address/99400453808 ;
+    geo:location ex:Location/99400453808 .
+
+ex:Address/99400453808
+    a schema:PostalAddress ;
+    schema:streetAddress " Ptge Gutenberg 7" ;
+    schema:postalCode "8001" ;
+    schema:addressLocality "El Raval" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "1"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/99400453808
+    a geo:Point ;
+    geo:lat "41.37693151786698"^^xsd:float ;
+    geo:long "2.1747110351465655"^^xsd:float .
+
+ex:Bar/99400420445
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Cocteleria Doble" ;
+    ex:barType "Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400420445 ;
+    geo:location ex:Location/99400420445 .
+
+ex:Address/99400420445
+    a schema:PostalAddress ;
+    schema:streetAddress "Pg Pg Gràcia 116" ;
+    schema:postalCode "8008" ;
+    schema:addressLocality "La Vila De Gràcia" ;
+    schema:addressRegion "Gràcia" ;
+    ex:neighborhoodId "31"^^xsd:integer ;
+    ex:districtId "6"^^xsd:integer .
+
+ex:Location/99400420445
+    a geo:Point ;
+    geo:lat "41.397211059158614"^^xsd:float ;
+    geo:long "2.159213702418187"^^xsd:float .
+
+ex:Bar/99400685835
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Cocteleria Popular Gopnik" ;
+    ex:barType "Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400685835 ;
+    geo:location ex:Location/99400685835 .
+
+ex:Address/99400685835
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer de Vallfogona 23" ;
+    schema:postalCode "8012" ;
+    schema:addressLocality "La Vila De Gràcia" ;
+    schema:addressRegion "Gràcia" ;
+    ex:neighborhoodId "31"^^xsd:integer ;
+    ex:districtId "6"^^xsd:integer .
+
+ex:Location/99400685835
+    a geo:Point ;
+    geo:lat "41.40352490735006"^^xsd:float ;
+    geo:long "2.1579665230100913"^^xsd:float .
+
+ex:Bar/99400596753
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Pub The James Joyce" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/99400596753 ;
+    geo:location ex:Location/99400596753 .
+
+ex:Address/99400596753
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Casp 92" ;
+    schema:postalCode "8010" ;
+    schema:addressLocality "La Dreta De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "7"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/99400596753
+    a geo:Point ;
+    geo:lat "41.39362616208608"^^xsd:float ;
+    geo:long "2.176545204416195"^^xsd:float .
+
+ex:Bar/99400689373
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical Karaoke A Viva Voz *aribau" ;
+    ex:barType "Bars I Pubs Musicals|Karaokes" ;
+    schema:address ex:Address/99400689373 ;
+    geo:location ex:Location/99400689373 .
+
+ex:Address/99400689373
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer D'aribau 103" ;
+    schema:postalCode "8036" ;
+    schema:addressLocality "L'antiga Esquerra De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "8"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/99400689373
+    a geo:Point ;
+    geo:lat "41.390342854588354"^^xsd:float ;
+    geo:long "2.156566649656205"^^xsd:float .
+
+ex:Bar/99400370685
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Restaurant Lounge My Way" ;
+    ex:barType "Bars I Pubs Musicals|Restaurants" ;
+    schema:address ex:Address/99400370685 ;
+    geo:location ex:Location/99400370685 .
+
+ex:Address/99400370685
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Heures 4" ;
+    schema:postalCode "8002" ;
+    schema:addressLocality "El Barri Gòtic" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "2"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/99400370685
+    a geo:Point ;
+    geo:lat "41.38077298942988"^^xsd:float ;
+    geo:long "2.1752836048519177"^^xsd:float .
+
+ex:Bar/99400576584
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical Bar De Retro" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/99400576584 ;
+    geo:location ex:Location/99400576584 .
+
+ex:Address/99400576584
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Torrent De L'olla 141" ;
+    schema:postalCode "8012" ;
+    schema:addressLocality "La Vila De Gràcia" ;
+    schema:addressRegion "Gràcia" ;
+    ex:neighborhoodId "31"^^xsd:integer ;
+    ex:districtId "6"^^xsd:integer .
+
+ex:Location/99400576584
+    a geo:Point ;
+    geo:lat "41.40357998898639"^^xsd:float ;
+    geo:long "2.155572605881731"^^xsd:float .
+
+ex:Bar/99400592901
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical Revival" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/99400592901 ;
+    geo:location ex:Location/99400592901 .
+
+ex:Address/99400592901
+    a schema:PostalAddress ;
+    schema:streetAddress " Trav Gràcia 40" ;
+    schema:postalCode "8021" ;
+    schema:addressLocality "Sant Gervasi - Galvany" ;
+    schema:addressRegion "Sarrià-sant Gervasi" ;
+    ex:neighborhoodId "26"^^xsd:integer ;
+    ex:districtId "5"^^xsd:integer .
+
+ex:Location/99400592901
+    a geo:Point ;
+    geo:lat "41.39538807510398"^^xsd:float ;
+    geo:long "2.1486107075773364"^^xsd:float .
+
+ex:Bar/99400576355
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical The Good Feeling" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/99400576355 ;
+    geo:location ex:Location/99400576355 .
+
+ex:Address/99400576355
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Consell De Cent 319" ;
+    schema:postalCode "8007" ;
+    schema:addressLocality "La Dreta De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "7"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/99400576355
+    a geo:Point ;
+    geo:lat "41.38947615246521"^^xsd:float ;
+    geo:long "2.1633420803121344"^^xsd:float .
+
+ex:Bar/99400596516
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical Decode" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/99400596516 ;
+    geo:location ex:Location/99400596516 .
+
+ex:Address/99400596516
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer d'Aribau 97" ;
+    schema:postalCode "8036" ;
+    schema:addressLocality "L'antiga Esquerra De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "8"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/99400596516
+    a geo:Point ;
+    geo:lat "41.39025193072827"^^xsd:float ;
+    geo:long "2.1567392047205014"^^xsd:float .
+
+ex:Bar/99400596553
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Village Club" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/99400596553 ;
+    geo:location ex:Location/99400596553 .
+
+ex:Address/99400596553
+    a schema:PostalAddress ;
+    schema:streetAddress "C C València 193" ;
+    schema:postalCode "8011" ;
+    schema:addressLocality "L'antiga Esquerra De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "8"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/99400596553
+    a geo:Point ;
+    geo:lat "41.38954089882291"^^xsd:float ;
+    geo:long "2.15891924381821"^^xsd:float .
+
+ex:Bar/99400596604
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Nevermind" ;
+    ex:barType "Cocteleries|Xampanyeries|Altres Esports|Instal·lacions Esportives" ;
+    schema:address ex:Address/99400596604 ;
+    geo:location ex:Location/99400596604 .
+
+ex:Address/99400596604
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Tallers 68" ;
+    schema:postalCode "8001" ;
+    schema:addressLocality "El Raval" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "1"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/99400596604
+    a geo:Point ;
+    geo:lat "41.3850530367574"^^xsd:float ;
+    geo:long "2.1664467041469133"^^xsd:float .
+
+ex:Bar/99400191790
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Sala Monasterio" ;
+    ex:barType "Bars I Pubs Musicals|Discoteques" ;
+    schema:address ex:Address/99400191790 ;
+    geo:location ex:Location/99400191790 .
+
+ex:Address/99400191790
+    a schema:PostalAddress ;
+    schema:streetAddress " Moll Mestral 30" ;
+    schema:postalCode "8005" ;
+    schema:addressLocality "La Vila Olímpica Del Poblenou" ;
+    schema:addressRegion "Sant Martí" ;
+    ex:neighborhoodId "67"^^xsd:integer ;
+    ex:districtId "10"^^xsd:integer .
+
+ex:Location/99400191790
+    a geo:Point ;
+    geo:lat "41.38801827078488"^^xsd:float ;
+    geo:long "2.1995779583018025"^^xsd:float .
+
+ex:Bar/99400576534
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical Le Standard" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/99400576534 ;
+    geo:location ex:Location/99400576534 .
+
+ex:Address/99400576534
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Topazi 24" ;
+    schema:postalCode "8012" ;
+    schema:addressLocality "La Vila De Gràcia" ;
+    schema:addressRegion "Gràcia" ;
+    ex:neighborhoodId "31"^^xsd:integer ;
+    ex:districtId "6"^^xsd:integer .
+
+ex:Location/99400576534
+    a geo:Point ;
+    geo:lat "41.405092690581945"^^xsd:float ;
+    geo:long "2.15485498845792"^^xsd:float .
+
+ex:Bar/99400494450
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical Monopol" ;
+    ex:barType "Bars I Pubs Musicals|Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400494450 ;
+    geo:location ex:Location/99400494450 .
+
+ex:Address/99400494450
+    a schema:PostalAddress ;
+    schema:streetAddress "Pg Pg Sant Joan Bosco 47" ;
+    schema:postalCode "8017" ;
+    schema:addressLocality "Sarrià" ;
+    schema:addressRegion "Sarrià-sant Gervasi" ;
+    ex:neighborhoodId "23"^^xsd:integer ;
+    ex:districtId "5"^^xsd:integer .
+
+ex:Location/99400494450
+    a geo:Point ;
+    geo:lat "41.39659039304677"^^xsd:float ;
+    geo:long "2.1264879203914436"^^xsd:float .
+
+ex:Bar/99400547070
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical The Other Place" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/99400547070 ;
+    geo:location ex:Location/99400547070 .
+
+ex:Address/99400547070
+    a schema:PostalAddress ;
+    schema:streetAddress "Rambla Rambla Del Raval 34" ;
+    schema:postalCode "8001" ;
+    schema:addressLocality "El Raval" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "1"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/99400547070
+    a geo:Point ;
+    geo:lat "41.37890799797372"^^xsd:float ;
+    geo:long "2.172288138721669"^^xsd:float .
+
+ex:Bar/99400576721
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical La Cova Del Drac" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/99400576721 ;
+    geo:location ex:Location/99400576721 .
+
+ex:Address/99400576721
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Vallfogona 34" ;
+    schema:postalCode "8012" ;
+    schema:addressLocality "La Vila De Gràcia" ;
+    schema:addressRegion "Gràcia" ;
+    ex:neighborhoodId "31"^^xsd:integer ;
+    ex:districtId "6"^^xsd:integer .
+
+ex:Location/99400576721
+    a geo:Point ;
+    geo:lat "41.4035654522437"^^xsd:float ;
+    geo:long "2.1581452668516087"^^xsd:float .
+
+ex:Bar/99400701885
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Eclipse *hotel W" ;
+    ex:barType "Cocteleries|Xampanyeries|Restaurants" ;
+    schema:address ex:Address/99400701885 ;
+    geo:location ex:Location/99400701885 .
+
+ex:Address/99400701885
+    a schema:PostalAddress ;
+    schema:streetAddress "Pl Pl Rosa Dels Vents 1" ;
+    schema:postalCode "8039" ;
+    schema:addressLocality "La Barceloneta" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "3"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/99400701885
+    a geo:Point ;
+    geo:lat "41.36830588647039"^^xsd:float ;
+    geo:long "2.1932338141270557"^^xsd:float .
+
+ex:Bar/99400705526
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Bobby's Free" ;
+    ex:barType "Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400705526 ;
+    geo:location ex:Location/99400705526 .
+
+ex:Address/99400705526
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer De Pau Claris 85" ;
+    schema:postalCode "8010" ;
+    schema:addressLocality "La Dreta De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "7"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/99400705526
+    a geo:Point ;
+    geo:lat "41.39130768913348"^^xsd:float ;
+    geo:long "2.1711210210084534"^^xsd:float .
+
+ex:Bar/99400576132
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical El Forat" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/99400576132 ;
+    geo:location ex:Location/99400576132 .
+
+ex:Address/99400576132
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Salses 31" ;
+    schema:postalCode "8028" ;
+    schema:addressLocality "La Sagrera" ;
+    schema:addressRegion "Sant Andreu" ;
+    ex:neighborhoodId "62"^^xsd:integer ;
+    ex:districtId "9"^^xsd:integer .
+
+ex:Location/99400576132
+    a geo:Point ;
+    geo:lat "41.42442470764491"^^xsd:float ;
+    geo:long "2.1813133649520976"^^xsd:float .
+
+ex:Bar/99400191284
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical La Sala" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/99400191284 ;
+    geo:location ex:Location/99400191284 .
+
+ex:Address/99400191284
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Sants 54" ;
+    schema:postalCode "8014" ;
+    schema:addressLocality "Sants" ;
+    schema:addressRegion "Sants-montjuïc" ;
+    ex:neighborhoodId "14"^^xsd:integer ;
+    ex:districtId "3"^^xsd:integer .
+
+ex:Location/99400191284
+    a geo:Point ;
+    geo:lat "41.37763177659556"^^xsd:float ;
+    geo:long "2.1384067982236597"^^xsd:float .
+
+ex:Bar/99400700870
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical Les Qüestions Que J'aime" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/99400700870 ;
+    geo:location ex:Location/99400700870 .
+
+ex:Address/99400700870
+    a schema:PostalAddress ;
+    schema:streetAddress " Av Av Josep Tarradellas 123" ;
+    schema:postalCode "8029" ;
+    schema:addressLocality "La Nova Esquerra De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "9"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/99400700870
+    a geo:Point ;
+    geo:lat "41.38612140417243"^^xsd:float ;
+    geo:long "2.14660855269707"^^xsd:float .
+
+ex:Bar/99400706535
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar La Confiteria" ;
+    ex:barType "Bars I Pubs Musicals|Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400706535 ;
+    geo:location ex:Location/99400706535 .
+
+ex:Address/99400706535
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer De Balmes 229" ;
+    schema:postalCode "8006" ;
+    schema:addressLocality "Sant Gervasi - Galvany" ;
+    schema:addressRegion "Sarrià-sant Gervasi" ;
+    ex:neighborhoodId "26"^^xsd:integer ;
+    ex:districtId "5"^^xsd:integer .
+
+ex:Location/99400706535
+    a geo:Point ;
+    geo:lat "41.3968600213898"^^xsd:float ;
+    geo:long "2.1555543666299317"^^xsd:float .
+
+ex:Bar/99400713397
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Restaurant Paradiso" ;
+    ex:barType "Cocteleries|Xampanyeries|Restaurants" ;
+    schema:address ex:Address/99400713397 ;
+    geo:location ex:Location/99400713397 .
+
+ex:Address/99400713397
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer De Rera Palau 4" ;
+    schema:postalCode "8003" ;
+    schema:addressLocality "Sant Pere, Santa Caterina I La Ribera" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "4"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/99400713397
+    a geo:Point ;
+    geo:lat "41.38531557766155"^^xsd:float ;
+    geo:long "2.1837424161879717"^^xsd:float .
+
+ex:Bar/75990208118
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Sala El Sol *rambla De Catalunya" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/75990208118 ;
+    geo:location ex:Location/75990208118 .
+
+ex:Address/75990208118
+    a schema:PostalAddress ;
+    schema:streetAddress "Rambla Rambla De Catalunya 27" ;
+    schema:postalCode "8007" ;
+    schema:addressLocality "La Dreta De L'eixample" ;
+    schema:addressRegion "Eixample" ;
+    ex:neighborhoodId "7"^^xsd:integer ;
+    ex:districtId "2"^^xsd:integer .
+
+ex:Location/75990208118
+    a geo:Point ;
+    geo:lat "41.38722416395914"^^xsd:float ;
+    geo:long "2.169123826227656"^^xsd:float .
+
+ex:Bar/99400710605
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Dr Stravinsky" ;
+    ex:barType "Cocteleries|Xampanyeries" ;
+    schema:address ex:Address/99400710605 ;
+    geo:location ex:Location/99400710605 .
+
+ex:Address/99400710605
+    a schema:PostalAddress ;
+    schema:streetAddress "Carrer Carrer De Mirallers 5" ;
+    schema:postalCode "8003" ;
+    schema:addressLocality "Sant Pere, Santa Caterina I La Ribera" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "4"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/99400710605
+    a geo:Point ;
+    geo:lat "41.38515091722026"^^xsd:float ;
+    geo:long "2.183865679502905"^^xsd:float .
+
+ex:Bar/75990176312
+    a schema:LocalBusiness, ex:Bar ;
+    schema:name "Bar Musical Big Fun" ;
+    ex:barType "Bars I Pubs Musicals" ;
+    schema:address ex:Address/75990176312 ;
+    geo:location ex:Location/75990176312 .
+
+ex:Address/75990176312
+    a schema:PostalAddress ;
+    schema:streetAddress "C C Vistalegre 1" ;
+    schema:postalCode "8001" ;
+    schema:addressLocality "El Raval" ;
+    schema:addressRegion "Ciutat Vella" ;
+    ex:neighborhoodId "1"^^xsd:integer ;
+    ex:districtId "1"^^xsd:integer .
+
+ex:Location/75990176312
+    a geo:Point ;
+    geo:lat "41.37894356499388"^^xsd:float ;
+    geo:long "2.172403986866297"^^xsd:float .
